@@ -175,7 +175,7 @@ I use point cloud spatial statistics to characterize and quantify active surface
 
 Before conducting a statistical analysis scan data must be pre-processed into a workable format. Scan data is a point cloud - a series of points with coordinates $x$, $y$ and $z$. Scans reported in this study typically have $10^6$ to $ 10^7$ points. In raw form, the point clouds are randomly oriented, noisy and still contain instrumental and physical artefacts. Physical artefacts include cracks, eroded sections, and vegetation; instrumental artefacts include noise, smoothing and scattering. All these features must be removed. The process of manual removal is labour intensive and unfeasible for a data set of the scope presented in this study. I rather opt to automate this process. Only very large defects (defects that may substantially effect the quality of finding a true mean plane) are manually removed.
 
-		\subsubsubsection{Point Cloud orientation}
+		\subsubsubsection{Point Cloud orientation and Gridding}
 
 The surface must both be flattened and aligned along slip. Linear trends in the data induce an unwanted high frequency signal in data and also affect the quality of later interpolation onto a grid. Thus, $x$, $y$, $z$ data is rotated using around the axis $\textbf{u}$ as determined by the normalized cross product between the surface normal $\textbf{n}$ and a vector normal to a flat surface ($\textbf{n}_2 = [0 0 1]$): 
 
@@ -187,7 +187,11 @@ $$ R = \cos\theta\textbf{I} + \sin\theta[\textbf{u}]_x+(1-\cos\theta)\textbf{u}\
 
 were $[\textbf{u}]_x$ is the cross product matrix of $u$ and $\otimes$ is the tensor product and $I$ is the identity matrix.
 
-Fault surfaces are anisotropic. The direction of slip is preserved in the anisotropy whereby the 'smoothest' direction is slip parallel and the 'roughnest' direction is perpendicular to slip. The fault scan is rotated around the $z$ axis such that the direction of slip is along the $x$ axis. The direction of slip is by decimating raw data before iteratd steps of regridding, one-degree rotation and spectral analysis. In the radial search, roughness is quanified as the integral of the log-weighted power spectrum over the entire bandwidth of the sample surface. The angle associated to the minimum in roughness is then identified as the direction of slip and subsequently used to rotated the original flattened point cloud. The data is then interpolated onto a grid using a linear interpolation algorithm.
+Fault surfaces are anisotropic. The direction of slip is preserved in the anisotropy whereby the 'smoothest' direction is slip parallel and the 'roughnest' direction is perpendicular to slip. The fault scan is rotated around the $z$ axis such that the direction of slip is along the $x$ axis. The direction of slip is by decimating raw data before iteratd steps of regridding, one-degree rotation and spectral analysis. In the radial search, roughness is quanified as the integral of the log-weighted power spectrum over the entire bandwidth of the sample surface. The angle associated to the minimum in roughness is then identified as the direction of slip and subsequently used to rotated the original flattened point cloud. The data is then interpolated onto a grid using a linear interpolation algorithm. The point spacing is automatically defined by the point density over the areal extent of the data:
+
+\begin{equation}
+	\Delta x = N_{pts}/A XXXXXX
+\end{equation}
 
 		\subsubsection{Surface Defect Removal} 
 
@@ -196,15 +200,18 @@ INCLUDE HISTOGRAMS FOR EACH FILTER
 
 \textit{Defect} include all physical surface features that are clearly not associated any faulting process, \textit{e.g.} cracks, eroded patches, vegetation, etc.. Defects are idenetified and filtered out using combination of thresholding methods. These methods all revolve around identifying clear points or segments that are statistical outliers to the distribution characterizing the entire surface--abnormal points. 
 
-The most aggressive filter implemented searches for outliers to the fractal model. The filter removes entire linear segments with abnormally high variance in the height field for the given scale of observation. For this implementation, I iterate over 10 scales. The scales are selected using a log spacing up to the size of the entire surface. The threshold for segment removal is chosen to be four standard deviations from the mean. Note that the filter should not be associated to a systematic bias. Segment removal is symmetric. As a result, given a truly stationary fault surfaces (as assumed in the analysis) the removal of extreme values should not systematically bias data. However, outliers associated with a truly distinct mechanism of formation (in this case cracks and other defects) \textit{will} be removed.
+The most aggressive filter implemented searches for outliers to the fractal model. The filter removes entire linear segments with abnormally high variance in the height field for the given scale of observation. For this implementation, I iterate over 10 filter scales. The scales are selected using a log spacing from the 10 points up to the length of the entire surface. The threshold for segment removal is chosen to be four standard deviations from the mean (should account for $<0.1$ percent of the data in a normal distribution). Note that, assuming a normal distribution of variance data for a given scale, the filter should not induce a systematic bias since the filtering is symmetric around the mean. However, surface features associated with a truly distinct mechanism of formation, in this case cracks and other defects that will typically have much higher variance, \textit{are} be removed. This general approach ensures that defects, regardless of their scale get idenetified and removed. This is important for any subsequent fractal analysis.
 
-Abnormally flat sections arise as the result of triangular interpolation of sparse points. Typically, interpolation on the edge on a non-convex set of points has this effect. These artefacts are removed by removing abnormally low curvatures in the log-transformed absolute value curvature field. The filter rejects point with curvatures less than $10^{-25}$. These values are unrealistically small and can only be associated to the linear interpolation scheme.
+Abnormally flat sections arise as the result of triangular interpolation of sparse points. Typically, interpolation on the edge on a non-convex set of points is subject to this effect. These artefacts are readily identified in the curvature data. In the log-transformed absolute value curvature field, these sections appear to be nearly or exactly zero. The filter rejects point with curvatures less than $10^{-25}$. These values likely associated to the linear interpolation scheme.
 
 Finally, all scan are inspected to make sure that the pre-processing was successful. The script fails to properly process scans that are excessively populated with surface defects. These scans were manually cleaned and oriented before re-processing them. Manual changes were executed in \textit{CloudCompare}. 
 
+Pre-prossed scans are $N$ by $M$ scalar fields of fault surface topography(the sitance from the mean plane) aligned with slip along the $x$ axis. NaN values mark locations where data is missing or was removed by filters. Point spacing is defined the mean point density of the scan in the $x$-$y$ plane.
 	\subsection{Statistical Analysis}
+		
 
 		\subsubsection{Spectral Analysis}
+		
 
 		\subsubsection{More Spatial Statistics}
 	
@@ -244,7 +251,7 @@ Molly's Castle & Entrada Sandstone & East-West striking network of normal faults
         \captionof{table}{Table caption}% Add 'table' caption
     \end{landscape}
     \clearpage% Flush page
-}
+
 
 \subsubsection{Slip Surfaces}
 
