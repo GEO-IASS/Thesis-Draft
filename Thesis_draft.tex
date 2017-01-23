@@ -351,6 +351,41 @@ At some locations, take for instance the Blueberry Fault in the Chimney Rock Fau
 	\subsection{Model Results}
 
 \section{Discussion}
+	\subsection{An external estimate of gouge production and fault thickness}
+
+The data collected in this study offers the unique opportunity to provide new indirect estimates of fault rock production, fault thickness and dilation rate over an entire fault. We know that 1) the primordial roughness is systematically rougher than mature faults, 2) the primordial roughnes is relatively constant, and 3) the roughness can be estimated for a given displacement. Using these results, I will estimate the volume of fault rock produced through wear and the corresponding roughness induced accomodation space in the fault system.
+
+Displacing two rough fractal surface in shear requires dilation. The expectation dilation can be estimated according to the amplitude of the largest wavelength ($\lambda$) being offset (see figure XXX). For a given displacement, $u$, the largest wavelength in the system will be $\lambda = 2u_i$. Using a fractal paradigm to define the average amplitude of a given wavelength according to the pre-factor $\Beta$ and the Hurst scaling exponent, $H$, (*reference the equation*) we find that the dilation, $A$ can be expressed as a function of displacement:
+
+\begin{equation}
+	A(u) = \sqrt{\Beta 2u^{-2H-1}}
+\end{equation}
+
+If we apply this to an entire fault system with displacement field, $U$, we can estimate the void space that would be produced:
+
+\begin{equation}
+	V_{void}(U) = \int_S \sqrt{\Beta 2U^{-2H-1}}dS
+\end{equation}
+
+Since the fault system is closed any change in fault roughness $must$ be coupled to the fault core. If all changes in the fault surface are associated to a production of fault rock, we can effectively estimate the volume of fault rock that has been produced from diplacement $u_0$ to $u_f$ by comparing the volume integral under the corresponding initial and final slip surfaces $S(u_0)$ and $S(u_f)$.
+
+\begin{equation}
+	\dfrac {\Delta V_{fault rock}}{\Delta u} = \int_S S(u_0) - S(u_f) dS
+\end{equation}
+
+volume integral under the surfaces, $S$, can be estimated numerically according to the frequency distribution prescribed by the RMS the  entire fault system. Note that the RMS is estimated at the length scale of the entire fault; wear processes are active at all length scales below this.
+
+\begin{equation}
+	\int S dS \approx 
+\end{equation}
+
+Now for the displacement field, $U$, we can estimate the total fault rock produced by using the primordial surface roughness, $S(0)$, and the prediction of the surface roughness extrapolated to the length of the fault (* reference the the equation of smoothing *) such that:
+
+\begin{equation}
+	V_{fault rock}(U) = \int_S S(0)-S(U)dS
+\end{equation}
+
+The comparison between the two quatities is telling. If the amount of fault rock is
 
 \section{conclusion}
 
