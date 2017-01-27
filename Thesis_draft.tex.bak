@@ -1,6 +1,6 @@
 \documentclass[12pt,a4paper]{article}
 \usepackage[utf8]{inputenc}
-\usepackage{amsmath}
+\usepackage{amsmath,esint}
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
@@ -15,6 +15,9 @@
 \usepackage{afterpage}
 \usepackage{capt-of}% or use the larger `caption` package
 \usepackage[usenames, dvipsnames]{color}
+\usepackage{lineno}
+\linenumbers*[1]
+
 
 \author{Kelian Dascher-Cousineau}
 \title{Masters Thesis: The Evolution of Fault Slip Surfaces with Cumulative Displacement}
@@ -32,10 +35,12 @@ Fault slip surface roughness determines fault strength, friction and dynamic fau
 
 \end{abstract}
 
+\section*{Contribution of Authors}
+
 \section{Introduction}
 
-\textcolor{red}{\textit{
-Would closely follow my project proposal:}}
+
+Would closely follow my project proposal:
 
 \subsection{Motivation}
 
@@ -50,15 +55,6 @@ While there has been significant progress in understanding the role of roughness
 Additionally, the evolution of roughness represents a novel insight into the architecture of a fault zone.  The geometry of the fault surface modulates the architecture of the whole fault zone (Mitchell and Faulkner, 2009). Changes in roughness require interaction between the slip surfaces and its direct surrounding (fault core), resulting in the formation of fault rock (Power and Tullis, 1988). In addition to earthquake mechanics, the architecture of a fault zone, and its corresponding permeability structure, is very important for hydrocarbon exploration (Shipton and Cowie, 2003). However, because the change in roughness by wear is poorly understood, the equivalent production of wear material, the fault rock, is also poorly understood. Fault rock thickness growth with displacement is documented (Sholtz, 1987), but variability is such that even order of magnitude estimates of thickness for a given displacement are unavailable.
 
 	The objective of this project is to identify how and why fault surfaces change. In line with previous studies, I hypothesize that wear is a dominant mechanism in the evolution of fault surfaces with cumulative displacement. I will measure the surface roughness of natural fault surfaces with varying displacements to confirm and better quantify the role of cumulative displacement on fault roughness. This study will be broadly composed of the following three components: 1) data collection, 2) data processing and analysis and 3) interpretation of the results. Field work in Southern Utah will be conducted with the specific intent of collecting scans of pristine fault  surfaces with terrestrial laser scanners and hand-samples for laboratory high resolution scans. The roughness of the surfaces will then be quantified and related to corresponding displacement. A robust quantitative correlation between roughness and cumulative displacement will enable parameterized interpretation and modelling of the mechanics of fault wear. Based on my results, I will explore the mechanical implications of a changing fault surface as coupled to the fault zone. In this proposal, I first present the geological background and important concepts. I then follow by outlining the projected scientific method, data analysis and interpretation. I conclude with a time line for the completion of my thesis in a timely two year period. 
-
-\subsection{Geology}
-
-Field work will be conducted in the San-Rafael Desert, Utah (see figure 1). The San Rafael Desert hosts a sequence of gently dipping marine and sub-areal sedimentary rocks deposited from the Pennsylvanian to the Jurassic (see Figure 2). 
-The San Rafael Desert is part of the San Rafael Swell, a monocline that formed when these sediments were uplifted as a passive drape fold above a reactivated basement reverse fault during the Late Cretaceous Laramide Orogeny (Kelly, 1955; Vrolijk et al., 2005). The swell is part of the broader Colorado Plateau (Kelly, 1955). Networks of joints and normal faults associated to further Laramide activity cross-cut sedimentary sequence accommodating North-South extension (Aydin and Johnson, 1978; Vrolijk et al., 2005). Specifically, within the San Rafael Swell we have selected the following field locations: 1) the Chimney Rock Fault Array, 2) the Big Hole fault and 3) a network of deformation bands in the Entrada formation near Goblin Valley State Park.  Advantages of theses field locations are manifold. First, the nearly pure quartzite lithology, extensional tectonic regime, depth (2-4 km or 40-80 MPa), temperature (estimates range from 45-90 oC) of activity, and faulting mechanism are all relatively consistent (Vrolijk et al., 2005). Consistency in these parameters is key to isolating the effect of displacement on the fault roughness. Moreover, both field locations exhibit well preserved fault surfaces that are exposed and accessible (see Figure 3). 
-The Chimney Rock fault array is an orthorhombic set of faults that crops out at the northern end of the San Rafael Swell (Krantz, 1989, Davatzes et al., 2003). Two pairs of oppositely dipping normal faults crop out at the surface with preserved fault scarps. WNW-striking faults are interpreted to have formed by shear reactivation of joints, whereas ENE-striking faults initially formed from deformation bands (Davatzes, 2003). Exposure is very good, faults are abundant and have well preserved fault surfaces (Vrolijk et al., 2005). The Chimney fault array has studied to better understand of fault geometry (Shipton and Cowie, 2001; Shipton and Cowie, 2003), permeability (Shipton et al., 2002) and kinematics (Krantz, 1986; Krantz, 1989; Maerten et al., 2001; Davatzes et al., 2003) . As a result, detailed maps of the fault array have been produced (e.g. Maerten et al., 2001) . In addition, by using measurements of the separation between footwall and hanging wall cutoffs of sedimentary horizons, entire displacement profiles have been measured for faults with a wide range of displacements (Cowie and Shipton, 1998; Maerten et al., 2001; Shipton and Cowie 2001; Shipton and Cowie, 2003). 
-The Big Hole fault is located just to the South-East of the Chimney Rock Fault Array. While not explicitly part of the fault array, the Big Hole fault shares a nearly identical geological setting. The Big Hole fault has been extensively studied in detail as an analog to hydrocarbon reservoir-scale faults. Displacements on the exposed fault range from 8 m to 39 m. (Shipton and Cowie, 2001; Shipton and Cowie, 2003) 
-	Large networks of deformation band faults outcrop near Goblin Valley State Park on the southeastern margin of the San-Rafael Swell (Aydin and Johnson, 1978). Deformation bands are the result of concentrated shear deformation on narrow centimeter thick bands (Aydin and Johnson, 1978; Davatzes et al., 2003). Collapsing pore space accommodates this deformation. Deformation bands are interpreted as the embryonic stages of fault development (Fossen and Hesthammer, 1998; Fossen et al., 2007). Because deformation bands dramatically alter the local permeability structure, Goblin Valley has been extensively studied in light of fault nucleation and the implications for hydrocarbon circulation (e.g. Fossen et al., 2005; Tobari and Fossen 2009). At Goblin valley, arrays of deformation bands anastomose—outcropping as centimeter- to meter-sized slabs.  These are often bounded by discrete slip surfaces with well-preserved striations — i.e. roughness (Aydin and Johnson, 1978). Offsets in sedimentary beds have allowed previous studies to obtain detailed displacement measurements (e.g. Schultz and Fossen 2002). 
-Together, these field locations offer the chance to survey well-preserved fault surfaces that have hosted displacements from embryonic stages to 30 m of displacement. Moreover, novel to this study, we will be able to survey multiple expressions of a single fault’s surface with various displacements according the displacement profile of the fault. 
 
 
 \subsection{Fault Roughness}
@@ -101,7 +97,12 @@ P(k) = Ck^{(-1-2\varsigma)}
 
 Where $k$ is the frequency and $C$ is the pre-factor (Candela et al., 2009). 
 
+
+\subsection{Wear}
+
 \subsection{The evolution of slip surfaces with displacement}
+
+\textcolor{red}{\textit{talk about deformation in sandstones, e.g. aydin, fossen etc.}}
 
 In this project, I hope to address how slip surfaces change. Many processes could cause the slip surface to change.   In fact, the cause of change to the slip surface is not uniquely recorded by the roughness. Fundamentally, a fault surface can only change according to the following mechanisms:
 \begin{itemize}
@@ -120,6 +121,22 @@ Where $W$ is the wear rate, $P$ is the remote load and a is a mean measure of th
 If and how wear affect the geometry of a fault slip surface remains unclear. Both field and laboratory experiment show that wear is scale dependent, such that asperities are worn down at different rates according to their typical dimensions. Asperities at longer characteristic wavelengths and larger amplitudes wear down faster, on average, than those with small wave lengths and small amplitudes. These observations correspond to both a downward translation and clockwise rotation of the self-affine scaling in the power spectrum. The exact mechanism causing this behavior is unclear. Davidesko et al., 2014 suggest that dilation during displacement on a fault ‘shelters’ smaller, shorter wavelength, asperities and therefore wears down large, long wavelength asperities. In this study, I hope to be able to relate changes in the slip surface geometry to wear processes. Specifically, empirically identifying and determining the rate of wear as expressed in the slip surface would be of particular interest.
 A potential caveat to the simple wear models (i.e. Archard, 1953) is the sensitivity of fault rock to sliding velocity and the presence of lubricant (e.g. pseudotachylyte, amorphous silica gel and gouge). Moreover, the stresses imparted by a propagating fault rupture front are mechanically distinct from those related to rubbing surfaces. Such a distinction may also drastically alter the relation between wear material and the slip surface (Sibson, 1977). Since Archard (1953), models of wear tend to diverge in their results, assumptions and by association, their applicability (Meng and Ludema, 1995).  For the purpose of this study, the fractal nature of fault surfaces is important to reconcile with a model of wear. What is the scaling behavior of wear? Fractal surfaces are difficult to integrate into the pre-existing framework of wear processes. Specifically, defining the real area of contact, corresponding deformation and, by association, the scale dependence of wear is non-trivial (e.g. Persson, 2001; Jackson and Streator, 2006).
 
+
+\subsection{Objectives of this study}
+
+\section{Geology}
+
+\textcolor{red}{\textit{maybe put as a seperate section (like 2)}}
+
+Field work will be conducted in the San-Rafael Desert, Utah (see figure 1). The San Rafael Desert hosts a sequence of gently dipping marine and sub-areal sedimentary rocks deposited from the Pennsylvanian to the Jurassic (see Figure 2). 
+The San Rafael Desert is part of the San Rafael Swell, a monocline that formed when these sediments were uplifted as a passive drape fold above a reactivated basement reverse fault during the Late Cretaceous Laramide Orogeny (Kelly, 1955; Vrolijk et al., 2005). The swell is part of the broader Colorado Plateau (Kelly, 1955). Networks of joints and normal faults associated to further Laramide activity cross-cut sedimentary sequence accommodating North-South extension (Aydin and Johnson, 1978; Vrolijk et al., 2005). Specifically, within the San Rafael Swell we have selected the following field locations: 1) the Chimney Rock Fault Array, 2) the Big Hole fault and 3) a network of deformation bands in the Entrada formation near Goblin Valley State Park.  Advantages of theses field locations are manifold. First, the nearly pure quartzite lithology, extensional tectonic regime, depth (2-4 km or 40-80 MPa), temperature (estimates range from 45-90 oC) of activity, and faulting mechanism are all relatively consistent (Vrolijk et al., 2005). Consistency in these parameters is key to isolating the effect of displacement on the fault roughness. Moreover, both field locations exhibit well preserved fault surfaces that are exposed and accessible (see Figure 3). 
+The Chimney Rock fault array is an orthorhombic set of faults that crops out at the northern end of the San Rafael Swell (Krantz, 1989, Davatzes et al., 2003). Two pairs of oppositely dipping normal faults crop out at the surface with preserved fault scarps. WNW-striking faults are interpreted to have formed by shear reactivation of joints, whereas ENE-striking faults initially formed from deformation bands (Davatzes, 2003). Exposure is very good, faults are abundant and have well preserved fault surfaces (Vrolijk et al., 2005). The Chimney fault array has studied to better understand of fault geometry (Shipton and Cowie, 2001; Shipton and Cowie, 2003), permeability (Shipton et al., 2002) and kinematics (Krantz, 1986; Krantz, 1989; Maerten et al., 2001; Davatzes et al., 2003) . As a result, detailed maps of the fault array have been produced (e.g. Maerten et al., 2001) . In addition, by using measurements of the separation between footwall and hanging wall cutoffs of sedimentary horizons, entire displacement profiles have been measured for faults with a wide range of displacements (Cowie and Shipton, 1998; Maerten et al., 2001; Shipton and Cowie 2001; Shipton and Cowie, 2003). 
+The Big Hole fault is located just to the South-East of the Chimney Rock Fault Array. While not explicitly part of the fault array, the Big Hole fault shares a nearly identical geological setting. The Big Hole fault has been extensively studied in detail as an analog to hydrocarbon reservoir-scale faults. Displacements on the exposed fault range from 8 m to 39 m. (Shipton and Cowie, 2001; Shipton and Cowie, 2003) 
+	Large networks of deformation band faults outcrop near Goblin Valley State Park on the southeastern margin of the San-Rafael Swell (Aydin and Johnson, 1978). Deformation bands are the result of concentrated shear deformation on narrow centimeter thick bands (Aydin and Johnson, 1978; Davatzes et al., 2003). Collapsing pore space accommodates this deformation. Deformation bands are interpreted as the embryonic stages of fault development (Fossen and Hesthammer, 1998; Fossen et al., 2007). Because deformation bands dramatically alter the local permeability structure, Goblin Valley has been extensively studied in light of fault nucleation and the implications for hydrocarbon circulation (e.g. Fossen et al., 2005; Tobari and Fossen 2009). At Goblin valley, arrays of deformation bands anastomose—outcropping as centimeter- to meter-sized slabs.  These are often bounded by discrete slip surfaces with well-preserved striations — i.e. roughness (Aydin and Johnson, 1978). Offsets in sedimentary beds have allowed previous studies to obtain detailed displacement measurements (e.g. Schultz and Fossen 2002). 
+Together, these field locations offer the chance to survey well-preserved fault surfaces that have hosted displacements from embryonic stages to 30 m of displacement. Moreover, novel to this study, we will be able to survey multiple expressions of a single fault’s surface with various displacements according the displacement profile of the fault. 
+
+
+
 \section{Method}
 
 	\subsection{Data Collection}
@@ -127,11 +144,12 @@ A potential caveat to the simple wear models (i.e. Archard, 1953) is the sensiti
 In this study, I aim to quantitatively describe the evolution of fault slip surfaces. In addition, I will address the question of how fault slip surfaces evolve and the implications thereof. Key elements for the success of this study are the quality of the displacement measurements and the large number of accurate surface scans.  Objectives for the field work and data acquisitions thus reflect these standards. To prepare for the coming field season, I am making efforts to obtain raw data of previously measured displacement profiles. These profiles should provide the necessary data to constrain displacement at outcrops with good fault exposure. I also hope to have good base maps ready to work with in the field for the Chimney Rock Array, Big hole and Goblin Valley field areas. 
 To measure surface roughness, a flexible array of instruments is necessary (Brown and Scholtz, 1985; Candela et al., 2012). Scans will be obtained with three instruments, which have complimentary scales of observation. At scales ranging from meters down to millimetres, a light detection and ranging instrument (i.e. LiDAR) is the ideal instrument from high resolution surface scans. At intermediate scales ranging from centimetres down to hundreds of microns, a 3D laser scanner will potentially be brought in the field. A NextEngine 3D laser scanner is available for use at McGill. The NextEngine laser scanner offer accuracy down to 100 microns with resolution up to 268,000 points per square inch. Finally, at scales ranging from millimeters down to sub-micron, a white light interferometer will be used to scan hand samples collected in the field. This instrument is available at the McGill Nanotools Microfab labs. Combined, these instruments offer accurate and precise three dimensional sampling of fault surfaces at over nine decades of length scale. All the scans that will be collected will be associated with a corresponding displacement on the fault surface. These will either be collected by direct observation of sedimentary offset (where easily measurable) and/or from pre-existing displacement profile.
 In parallel to the analysis of the surface roughness using surface scans, the nature, volume and distribution of wear product on the fault will be recorded in the field. Hand samples were collected for surface and petrographic analysis. Together, all these measurements and observations should provide the necessary data to robustly explain and quantify the process through which faults mature.
-
+		\subsubsection{Field procedure}
+		\textcolor{red}{\textit{the instruments could be in a table}}	
 		\subsubsection{Lidar}
 		\subsubsection{Laser Scanner}
-		\subsubsection{Sample Collection}
 		\subsubsection{White light}
+		\subsubsection{Displacement estimates}
 
 	\subsection{Scan data Processing}
 
@@ -169,7 +187,8 @@ In this section, I present the work flow for processing scan data. We use spatia
 		\end{enumerate}
 	\end{enumerate}
 \end{enumerate}
-  
+
+\textcolor{red}{\textit{make into figure, include bypasses and other recent additions}}  
 
 		\subsection{Surface Pre-processing}
 
@@ -214,7 +233,9 @@ INCLUDE A FIGURE WITH: ORIGINAL SURFACE, AUTOMATICALLY PROCESSED GRID, MANUALLY 
 
 \section{Results}
 
-	\subsection{Field observations}
+	\subsection{Observations}
+	
+\textcolor{red}{\textit{include microstructure}}	
 	
 	\afterpage{%
     \clearpage% Flush earlier floats (otherwise order might not be correct)
@@ -315,7 +336,7 @@ More characteristic features may come to light when analysing samples in thin-se
 
 In this study we refer to \textit{fault rock} as rock altered either mechanically or chemically by the influence of the fault. At all field locations we observe diverse fault rock lithologies, ranging from finegrained cataclasites to massive  bodies of breccias (up to meters of thickness). 
 
-We suspect some fault rock associations exists. For instance, Davatzes et al., 2002 reports of a systematic association between the lithology and the orientation of the fault set. Namely, the orthorhombic fault set striking WNW has systematic association with fragmentation, ubiquitous fault rock; whereas the ENE fault set rather has slip surfaces cutting through deformation band clusters (see figure \ref{fig:DavatzesFR}}). This relations may the result of contrasting genetic mechanism. The WNW set is the result of the reactivation of regional joints. In contrast the ENE fault set is the the result of clustering and anastamosing deformation bands acting as a catalysing agent to the formation of a faults.
+We suspect some fault rock associations exists. For instance, Davatzes et al., 2002 reports of a systematic association between the lithology and the orientation of the fault set. Namely, the orthorhombic fault set striking WNW has systematic association with fragmentation, ubiquitous fault rock; whereas the ENE fault set rather has slip surfaces cutting through deformation band clusters (see figure \ref{fig:DavatzesFR}). This relations may the result of contrasting genetic mechanism. The WNW set is the result of the reactivation of regional joints. In contrast the ENE fault set is the the result of clustering and anastamosing deformation bands acting as a catalysing agent to the formation of a faults.
 
 \subsubsection{Deformation Bands}
 
@@ -340,13 +361,58 @@ At some locations, take for instance the Blueberry Fault in the Chimney Rock Fau
 	\label{DBC}
 \end{figure}		
 
+\subsection{Roughness measurements}
+
+figures to include:
+\begin{itemize}
+\item all spectra
+\item increasing anisotropy (two surfaces) - polar plot
+
+\subsubsection{Lidar}
+qualitative illustration of maturity
+
+\subsubsection{Laser scanner}
+
+\subsubsection{White light}
+
+\subsubsection{Interpretation of field observations and roughness measurements}
+
 \section{Model}
+	\subsection{Modelling Objectives}
 	\subsection{Model Outline}
+	
+	In this study, we utilize work minimization numerical modelling to capture the growth of fault damage and the effect of rough asperities. The models are built off of fric2d and growth by optimization of work (GROW) develloped by Michele Cooke and Jessica McBeck.
+	
+	Work minimization revolves around the energy partitioning of a faulting event whereby the external tectonic work is expressed by the sum of :
+	\begin{equation}
+	•
+	\end{equation}
+		\subsubsection{GROW}
+		Growth by optimization of work predicts fracture propagation paths. It does so by minimizing the external work on the system. The model theoretically allows for the simultaneous growth of multiple fractures and 
+		
+		\begin{figure}[H]
+	\centering
+	\begin{subfigure}[b]{0.4\textwidth}
+		\includegraphics[width=\textwidth]{DBC_edge}
+	\end{subfigure}
+	~
+	\begin{subfigure}[b]{0.4\textwidth}
+		\includegraphics[width=\textwidth]{DBC_X}
+	\end{subfigure}
+	\caption{Left: Example of the edge of a deformation bands cluster at Molly's Castle. Note the "lumpy" morphology and an clear vertical directional asymmetry. Right: Cross-sectional view of a deformation band cluster with tens of centimetres of shear offset. It is unclear weather there is a through going slip surface localizing displacement. It is , however, definitely not on the edge of the cluster.}
+	\label{DBC}
+\end{figure}		
+		
+		The general algorithm uses a boundary element method to describe the fractures--linear dislocation elements that discretize the entire length of the fault. As a crack grows, dislocation elements are added radially to the tip of the crack so as to minimize the external work on the system normalized by the crack area ($W_{ext}/\Delta A$).
+	
 	\subsection{Model Results}
 
 \section{Discussion}
-
+	\subsubsection{Tying the model together with roughness measurements and model}
+wear rate (character), tying together model with 
+\
 \section{conclusion}
+	\subsection{future work}
 
 \section{Appendix}
 
@@ -425,3 +491,4 @@ For reference, here is a quick outline of what each function does:
 
 
 \end{document}
+

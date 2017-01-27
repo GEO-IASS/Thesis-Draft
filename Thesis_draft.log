@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.29)  15 NOV 2016 11:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.29)  9 JAN 2017 15:34
 entering extended mode
 **./Thesis_draft.tex
 (Thesis_draft.tex
@@ -316,10 +316,14 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\esint\esint.sty"
+Package: esint 
+\symlargesymbolsA=\mathgroup4
+)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\symAMSa=\mathgroup4
-\symAMSb=\mathgroup5
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
@@ -483,21 +487,39 @@ Package color Info: Driver file: pdftex.def on input line 142.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
 File: dvipsnam.def 2014/10/14 v3.0j Driver-dependent file (DPC,SPQR)
 ))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lineno\lineno.sty"
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count110
+\output=\toks28
+\linenoprevgraf=\count111
+\linenumbersep=\dimen141
+\linenumberwidth=\dimen142
+\c@linenumber=\count112
+\c@pagewiselinenumber=\count113
+\c@LN@truepage=\count114
+\c@internallinenumber=\count115
+\c@internallinenumbers=\count116
+\quotelinenumbersep=\dimen143
+\bframerule=\dimen144
+\bframesep=\dimen145
+\bframebox=\box34
+LaTeX Info: Redefining \\ on input line 3056.
+)
 (Thesis_draft.aux)
 \openout1 = `Thesis_draft.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -535,17 +557,17 @@ LaTeX Font Info:    ... okay on input line 23.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count110
-\scratchdimen=\dimen141
-\scratchbox=\box34
-\nofMPsegments=\count111
-\nofMParguments=\count112
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count113
-\MPscratchDim=\dimen142
-\MPnumerator=\count114
-\makeMPintoPDFobject=\count115
-\everyMPtoPDFconversion=\toks29
+\scratchcounter=\count117
+\scratchdimen=\dimen146
+\scratchbox=\box35
+\nofMPsegments=\count118
+\nofMParguments=\count119
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count120
+\MPscratchDim=\dimen147
+\MPnumerator=\count121
+\makeMPintoPDFobject=\count122
+\everyMPtoPDFconversion=\toks30
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: sidecap package is loaded.
@@ -574,12 +596,17 @@ LaTeX Info: Redefining \selectfont on input line 126.
 \RaggedRightParindent=\skip60
 \JustifyingParindent=\skip61
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 25.
+LaTeX Font Info:    Try loading font information for U+esint on input line 28.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\esint\uesint.fd"
+File: uesint.fd 
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 28.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 25.
+LaTeX Font Info:    Try loading font information for U+msb on input line 28.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -588,7 +615,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 {C:/Users/kelian_dc/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3]
  [4]
 [5] [6] [7]
-Overfull \hbox (9.42393pt too wide) in paragraph at lines 191--192
+Overfull \hbox (9.42393pt too wide) in paragraph at lines 210--211
 []\OT1/cmr/m/n/12 At band-widths larger than the mi-cro-scopic scale, fault sur
 -faces are anisotropic. The anisotropy
  []
@@ -596,88 +623,102 @@ Overfull \hbox (9.42393pt too wide) in paragraph at lines 191--192
 [8] [9] [10
 
 
-] <two_slip_surfaces.jpg, id=48, 1070.42194pt x 802.81645pt>
+] <two_slip_surfaces.jpg, id=49, 1070.42194pt x 802.81645pt>
 File: two_slip_surfaces.jpg Graphic file (type jpg)
 
 <use two_slip_surfaces.jpg>
-Package pdftex.def Info: two_slip_surfaces.jpg used on input line 261.
+Package pdftex.def Info: two_slip_surfaces.jpg used on input line 282.
 (pdftex.def)             Requested size: 193.47578pt x 145.10097pt.
 
-<Concentric.jpg, id=49, 1070.42194pt x 802.81645pt>
+<Concentric.jpg, id=50, 1070.42194pt x 802.81645pt>
 File: Concentric.jpg Graphic file (type jpg)
  <use Concentric.jpg>
-Package pdftex.def Info: Concentric.jpg used on input line 265.
+Package pdftex.def Info: Concentric.jpg used on input line 286.
 (pdftex.def)             Requested size: 193.47578pt x 145.10097pt.
 
-<PSS.jpg, id=50, 1070.42194pt x 802.81645pt>
+<PSS.jpg, id=51, 1070.42194pt x 802.81645pt>
 File: PSS.jpg Graphic file (type jpg)
  <use PSS.jpg>
-Package pdftex.def Info: PSS.jpg used on input line 273.
+Package pdftex.def Info: PSS.jpg used on input line 294.
 (pdftex.def)             Requested size: 483.69687pt x 362.77081pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 284.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 305.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 284.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 305.
  [11
 
 
  <./two_slip_surfaces.jpg> <./Concentric.jpg>] [12 <./PSS.jpg>]
 
-LaTeX Warning: Reference `fig:DavatzesFR' on page 13 undefined on input line 31
-8.
+LaTeX Warning: Reference `fig:DavatzesFR' on page 13 undefined on input line 33
+9.
 
-! Too many }'s.
-l.318 ...lusters (see figure \ref{fig:DavatzesFR}}
-                                                  ). This relations may the ...
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-<DBC_edge.jpg, id=57, 1070.42194pt x 802.81645pt>
+[13] <DBC_edge.jpg, id=62, 1070.42194pt x 802.81645pt>
 File: DBC_edge.jpg Graphic file (type jpg)
  <use DBC_edge.jpg>
-Package pdftex.def Info: DBC_edge.jpg used on input line 333.
+Package pdftex.def Info: DBC_edge.jpg used on input line 354.
 (pdftex.def)             Requested size: 193.47578pt x 145.10097pt.
 
-<DBC_X.jpg, id=58, 1070.42194pt x 802.81645pt>
+<DBC_X.jpg, id=63, 1070.42194pt x 802.81645pt>
 File: DBC_X.jpg Graphic file (type jpg)
  <use DBC_X.jpg>
-Package pdftex.def Info: DBC_X.jpg used on input line 337.
+Package pdftex.def Info: DBC_X.jpg used on input line 358.
 (pdftex.def)             Requested size: 193.47578pt x 145.10097pt.
- [13] [14 <./DBC_edge.jpg> <./DBC_X.jpg>] [15] [16] (Thesis_draft.aux)
+ [14 <./DBC_edge.jpg> <./DBC_X.jpg>] [15] [16] [17]
+
+! LaTeX Error: \begin{itemize} on input line 367 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.481 \end{document}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[18] (Thesis_draft.aux)
 
 LaTeX Warning: There were undefined references.
 
- ) 
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 367 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 4645 strings out of 493634
- 66753 string characters out of 3141302
- 137753 words of memory out of 3000000
- 7935 multiletter control sequences out of 15000+200000
- 15573 words of font info for 59 fonts, out of 3000000 for 9000
+ 4903 strings out of 493634
+ 70680 string characters out of 3141302
+ 144088 words of memory out of 3000000
+ 8180 multiletter control sequences out of 15000+200000
+ 16342 words of font info for 67 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 36i,8n,39p,2111b,391s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program
- Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x
-86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.
-9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Thesis_draft.pdf (16 pages, 35973794 bytes).
+ 36i,8n,39p,2111b,397s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmm
+i10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi1
+2.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.p
+fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/public/esint/esint10.pfb><C:/Program Files (x86)/MiKTe
+X 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on Thesis_draft.pdf (18 pages, 35999181 bytes).
 PDF statistics:
- 119 PDF objects out of 1000 (max. 8388607)
+ 133 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
