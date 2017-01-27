@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.29)  9 JAN 2017 15:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.29)  27 JAN 2017 13:37
 entering extended mode
 **./Thesis_draft.tex
 (Thesis_draft.tex
@@ -615,90 +615,97 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 {C:/Users/kelian_dc/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3]
  [4]
 [5] [6] [7]
-Overfull \hbox (9.42393pt too wide) in paragraph at lines 210--211
-[]\OT1/cmr/m/n/12 At band-widths larger than the mi-cro-scopic scale, fault sur
--faces are anisotropic. The anisotropy
- []
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 169.
 
-[8] [9] [10
-
-
-] <two_slip_surfaces.jpg, id=49, 1070.42194pt x 802.81645pt>
-File: two_slip_surfaces.jpg Graphic file (type jpg)
-
-<use two_slip_surfaces.jpg>
-Package pdftex.def Info: two_slip_surfaces.jpg used on input line 282.
-(pdftex.def)             Requested size: 193.47578pt x 145.10097pt.
-
-<Concentric.jpg, id=50, 1070.42194pt x 802.81645pt>
-File: Concentric.jpg Graphic file (type jpg)
- <use Concentric.jpg>
-Package pdftex.def Info: Concentric.jpg used on input line 286.
-(pdftex.def)             Requested size: 193.47578pt x 145.10097pt.
-
-<PSS.jpg, id=51, 1070.42194pt x 802.81645pt>
-File: PSS.jpg Graphic file (type jpg)
- <use PSS.jpg>
-Package pdftex.def Info: PSS.jpg used on input line 294.
-(pdftex.def)             Requested size: 483.69687pt x 362.77081pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 305.
-
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 305.
- [11
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 169.
+
+[8] [9] [10] [11] [12
 
 
- <./two_slip_surfaces.jpg> <./Concentric.jpg>] [12 <./PSS.jpg>]
+]
 
-LaTeX Warning: Reference `fig:DavatzesFR' on page 13 undefined on input line 33
-9.
+LaTeX Warning: Citation `davatzes2000' on page 13 undefined on input line 327.
 
-[13] <DBC_edge.jpg, id=62, 1070.42194pt x 802.81645pt>
+
+LaTeX Warning: Citation `shipton' on page 13 undefined on input line 329.
+
+
+LaTeX Warning: Citation `fossen' on page 13 undefined on input line 329.
+
+[13
+
+
+] <DBC_edge.jpg, id=59, 1070.42194pt x 802.81645pt>
 File: DBC_edge.jpg Graphic file (type jpg)
  <use DBC_edge.jpg>
-Package pdftex.def Info: DBC_edge.jpg used on input line 354.
+Package pdftex.def Info: DBC_edge.jpg used on input line 340.
 (pdftex.def)             Requested size: 193.47578pt x 145.10097pt.
 
-<DBC_X.jpg, id=63, 1070.42194pt x 802.81645pt>
+<DBC_X.jpg, id=60, 1070.42194pt x 802.81645pt>
 File: DBC_X.jpg Graphic file (type jpg)
  <use DBC_X.jpg>
-Package pdftex.def Info: DBC_X.jpg used on input line 358.
+Package pdftex.def Info: DBC_X.jpg used on input line 344.
 (pdftex.def)             Requested size: 193.47578pt x 145.10097pt.
- [14 <./DBC_edge.jpg> <./DBC_X.jpg>] [15] [16] [17]
+ [14 <./DBC_edge.jpg> <./DBC_X.jpg>] <two_slip_surfaces.jpg, id=64, 1070.42194p
+t x 802.81645pt>
+File: two_slip_surfaces.jpg Graphic file (type jpg)
 
-! LaTeX Error: \begin{itemize} on input line 367 ended by \end{document}.
+<use two_slip_surfaces.jpg>
+Package pdftex.def Info: two_slip_surfaces.jpg used on input line 366.
+(pdftex.def)             Requested size: 193.47578pt x 145.10097pt.
+
+<Concentric.jpg, id=65, 1070.42194pt x 802.81645pt>
+File: Concentric.jpg Graphic file (type jpg)
+ <use Concentric.jpg>
+Package pdftex.def Info: Concentric.jpg used on input line 370.
+(pdftex.def)             Requested size: 193.47578pt x 145.10097pt.
+
+<PSS.jpg, id=66, 1070.42194pt x 802.81645pt>
+File: PSS.jpg Graphic file (type jpg)
+ <use PSS.jpg>
+Package pdftex.def Info: PSS.jpg used on input line 378.
+(pdftex.def)             Requested size: 483.69687pt x 362.77081pt.
+
+
+LaTeX Warning: Reference `fig:DavatzesFR' on page 15 undefined on input line 42
+3.
+
+[15 <./two_slip_surfaces.jpg> <./Concentric.jpg>] [16 <./PSS.jpg>] [17]
+[18] [19] [20]
+
+! LaTeX Error: \begin{itemize} on input line 437 ended by \end{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.481 \end{document}
+l.592 \end{document}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[18] (Thesis_draft.aux)
+[21] (Thesis_draft.aux)
 
 LaTeX Warning: There were undefined references.
 
  )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 367 (\begingroup)
+### semi simple group (level 1) entered at line 437 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 4903 strings out of 493634
- 70680 string characters out of 3141302
+ 4907 strings out of 493634
+ 70727 string characters out of 3141302
  144088 words of memory out of 3000000
- 8180 multiletter control sequences out of 15000+200000
+ 8184 multiletter control sequences out of 15000+200000
  16342 words of font info for 67 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 36i,8n,39p,2111b,397s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,8n,39p,2111b,398s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
@@ -716,9 +723,9 @@ es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files
 86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86
 )/MiKTeX 2.9/fonts/type1/public/esint/esint10.pfb><C:/Program Files (x86)/MiKTe
 X 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Thesis_draft.pdf (18 pages, 35999181 bytes).
+Output written on Thesis_draft.pdf (21 pages, 36020159 bytes).
 PDF statistics:
- 133 PDF objects out of 1000 (max. 8388607)
+ 143 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
