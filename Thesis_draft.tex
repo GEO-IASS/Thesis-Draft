@@ -17,7 +17,9 @@
 \usepackage[usenames, dvipsnames]{color}
 \usepackage{lineno}
 \linenumbers*[1]
-
+\usepackage{enumitem}
+\newlist{arrowlist}{itemize}{1}
+\setlist[arrowlist]{label=$\Rightarrow$}
 
 \author{Kelian Dascher-Cousineau}
 \title{Masters Thesis: The Evolution of Fault Slip Surfaces with Cumulative Displacement}
@@ -39,11 +41,6 @@ Fault slip surface roughness determines fault strength, friction and dynamic fau
 
 \section{Introduction}
 
-
-Would closely follow my project proposal:
-
-\subsection{Motivation}
-
 Faults are a characteristic feature of the Earth’s brittle crust. Fluid flow, seismicity and crustal mineralization are just few systems upon which faults act as major controls (Sibson, 1977). In spite of their importance, some aspects of faults and their underlying processes remain poorly understood. How strong is a fault? How do faults mature? Are small faults mechanically different to large faults? Fault geometry has been shown to be a key parameter controlling the mechanical behavior and evolution of faults (e.g. Lay et al., 1982; Aki, 1984; Power et al. 1988; Chester and Chester, 2000), but these questions are not yet fully answered.
 
 Slip on a fault occurs on discrete slip surfaces in fault zones (Davatzes and Aydin, 2005). These surfaces are not planar; they are rough. Roughness is observable at all scales (Scholtz and Aviles, 1986; Candela et al., 2012). Slickenlines, corrugations, mullions and jogs are all  surface features that can be seen at different length scales (Sagy and Brodsky, 2009). Field studies have found common characteristics in the topography of fault surfaces. These can be summarized as follows: 1) Fault surfaces appear to be well defined by large fractal domains, wherein 2) faults are smoother at larger length scales (Scholtz and Aviles, 1986; Candela et al., 2012), 3) rougher in the slip perpendicular direction than in the slip parallel direction (Lee and Bruhn, 19960, and 4) slip surfaces are smoother with cumulative displacement (Sagy et al., 2007). Fault roughness has been demonstrated to be critical in determining the strength (Chester and Chester, 2000, Brodsky et al., 2016), triggering (Parsons, 2008), dynamic properties (Candela et al., 2011; Dunham et al., 2011), spatial distribution (Parson, 2008) and failure recurrence of faults (Stirling et al., 1996). It is increasingly evident that roughness is a fingerprint of fundamental features of the faulting process (Brodsky et al., 2016). In accordance, incorporating more complex sources geometries has become a more frequent practice in dynamic earthquake rupture modelling (Shi and Day, 2013; Dunham et al., 2011). 
@@ -54,7 +51,7 @@ While there has been significant progress in understanding the role of roughness
 
 Additionally, the evolution of roughness represents a novel insight into the architecture of a fault zone.  The geometry of the fault surface modulates the architecture of the whole fault zone (Mitchell and Faulkner, 2009). Changes in roughness require interaction between the slip surfaces and its direct surrounding (fault core), resulting in the formation of fault rock (Power and Tullis, 1988). In addition to earthquake mechanics, the architecture of a fault zone, and its corresponding permeability structure, is very important for hydrocarbon exploration (Shipton and Cowie, 2003). However, because the change in roughness by wear is poorly understood, the equivalent production of wear material, the fault rock, is also poorly understood. Fault rock thickness growth with displacement is documented (Sholtz, 1987), but variability is such that even order of magnitude estimates of thickness for a given displacement are unavailable.
 
-	The objective of this project is to identify how and why fault surfaces change. In line with previous studies, I hypothesize that wear is a dominant mechanism in the evolution of fault surfaces with cumulative displacement. I will measure the surface roughness of natural fault surfaces with varying displacements to confirm and better quantify the role of cumulative displacement on fault roughness. This study will be broadly composed of the following three components: 1) data collection, 2) data processing and analysis and 3) interpretation of the results. Field work in Southern Utah will be conducted with the specific intent of collecting scans of pristine fault  surfaces with terrestrial laser scanners and hand-samples for laboratory high resolution scans. The roughness of the surfaces will then be quantified and related to corresponding displacement. A robust quantitative correlation between roughness and cumulative displacement will enable parameterized interpretation and modelling of the mechanics of fault wear. Based on my results, I will explore the mechanical implications of a changing fault surface as coupled to the fault zone. In this proposal, I first present the geological background and important concepts. I then follow by outlining the projected scientific method, data analysis and interpretation. I conclude with a time line for the completion of my thesis in a timely two year period. 
+	In this study, we report on how fault surfaces change. In line with previous studies, I hypothesize that faults smooth with displacement and that wear is a dominant mechanism in the evolution of fault surfaces with cumulative displacement. We measure the surface roughness of natural fault surfaces with varying displacements to confirm and better quantify the role of cumulative displacement on fault roughness. Field work in Southern Utah was conducted to collect scans of pristine fault  surfaces with terrestrial laser scanners and hand-samples for laboratory high resolution scans. Fault rougness is then be quantified and related to corresponding displacement. A robust quantitative correlation between roughness and cumulative displacement enables the parameterization of semi-analytical wear model for fault surfaces. Moreover, based on my results, I produce an external estimate of fault rock production in the fault zone. 
 
 
 \subsection{Fault Roughness}
@@ -123,14 +120,12 @@ A potential caveat to the simple wear models (i.e. Archard, 1953) is the sensiti
 
 \section{Geology}
 
-\textcolor{red}{\textit{maybe put as a seperate section (like 2)}}
-
-Field work will be conducted in the San-Rafael Desert, Utah (see figure 1). The San Rafael Desert hosts a sequence of gently dipping marine and sub-areal sedimentary rocks deposited from the Pennsylvanian to the Jurassic (see Figure 2). 
-The San Rafael Desert is part of the San Rafael Swell, a monocline that formed when these sediments were uplifted as a passive drape fold above a reactivated basement reverse fault during the Late Cretaceous Laramide Orogeny (Kelly, 1955; Vrolijk et al., 2005). The swell is part of the broader Colorado Plateau (Kelly, 1955). Networks of joints and normal faults associated to further Laramide activity cross-cut sedimentary sequence accommodating North-South extension (Aydin and Johnson, 1978; Vrolijk et al., 2005). Specifically, within the San Rafael Swell we have selected the following field locations: 1) the Chimney Rock Fault Array, 2) the Big Hole fault and 3) a network of deformation bands in the Entrada formation near Goblin Valley State Park.  Advantages of theses field locations are manifold. First, the nearly pure quartzite lithology, extensional tectonic regime, depth (2-4 km or 40-80 MPa), temperature (estimates range from 45-90 oC) of activity, and faulting mechanism are all relatively consistent (Vrolijk et al., 2005). Consistency in these parameters is key to isolating the effect of displacement on the fault roughness. Moreover, both field locations exhibit well preserved fault surfaces that are exposed and accessible (see Figure 3). 
+All data presented in this study was collected in the San-Rafael Desert, Utah (see figure 1). The San Rafael Desert hosts a sequence of gently dipping marine and sub-areal sedimentary rocks deposited from the Pennsylvanian to the Jurassic (see Figure 2). 
+The San Rafael Desert is part of the San Rafael Swell, a monocline that formed when these sediments were uplifted as a passive drape fold above a reactivated basement reverse fault during the Late Cretaceous Laramide Orogeny (Kelly, 1955; Vrolijk et al., 2005). The swell is part of the broader Colorado Plateau (Kelly, 1955). Networks of joints and normal faults associated to further Laramide activity cross-cut sedimentary sequence accommodating North-South extension (Aydin and Johnson, 1978; Vrolijk et al., 2005). Within the San Rafael Swell we focus the following field locations: 1) the Chimney Rock Fault Array, 2) the Big Hole fault and 3) a network of deformation bands in the Entrada formation near Goblin Valley State Park.  Advantages of theses field locations are manifold. First, the nearly pure quartzite lithology, extensional tectonic regime, depth (2-4 km or 40-80 MPa), temperature (estimates range from 45-90 $^oC$) of activity, and faulting mechanism are all relatively consistent (Vrolijk et al., 2005). Consistency in these parameters is key to isolating the effect of displacement on the fault roughness. Moreover, both field locations exhibit well preserved fault surfaces that are exposed and accessible (see Figure 3). 
 The Chimney Rock fault array is an orthorhombic set of faults that crops out at the northern end of the San Rafael Swell (Krantz, 1989, Davatzes et al., 2003). Two pairs of oppositely dipping normal faults crop out at the surface with preserved fault scarps. WNW-striking faults are interpreted to have formed by shear reactivation of joints, whereas ENE-striking faults initially formed from deformation bands (Davatzes, 2003). Exposure is very good, faults are abundant and have well preserved fault surfaces (Vrolijk et al., 2005). The Chimney fault array has studied to better understand of fault geometry (Shipton and Cowie, 2001; Shipton and Cowie, 2003), permeability (Shipton et al., 2002) and kinematics (Krantz, 1986; Krantz, 1989; Maerten et al., 2001; Davatzes et al., 2003) . As a result, detailed maps of the fault array have been produced (e.g. Maerten et al., 2001) . In addition, by using measurements of the separation between footwall and hanging wall cutoffs of sedimentary horizons, entire displacement profiles have been measured for faults with a wide range of displacements (Cowie and Shipton, 1998; Maerten et al., 2001; Shipton and Cowie 2001; Shipton and Cowie, 2003). 
 The Big Hole fault is located just to the South-East of the Chimney Rock Fault Array. While not explicitly part of the fault array, the Big Hole fault shares a nearly identical geological setting. The Big Hole fault has been extensively studied in detail as an analog to hydrocarbon reservoir-scale faults. Displacements on the exposed fault range from 8 m to 39 m. (Shipton and Cowie, 2001; Shipton and Cowie, 2003) 
 	Large networks of deformation band faults outcrop near Goblin Valley State Park on the southeastern margin of the San-Rafael Swell (Aydin and Johnson, 1978). Deformation bands are the result of concentrated shear deformation on narrow centimeter thick bands (Aydin and Johnson, 1978; Davatzes et al., 2003). Collapsing pore space accommodates this deformation. Deformation bands are interpreted as the embryonic stages of fault development (Fossen and Hesthammer, 1998; Fossen et al., 2007). Because deformation bands dramatically alter the local permeability structure, Goblin Valley has been extensively studied in light of fault nucleation and the implications for hydrocarbon circulation (e.g. Fossen et al., 2005; Tobari and Fossen 2009). At Goblin valley, arrays of deformation bands anastomose—outcropping as centimeter- to meter-sized slabs.  These are often bounded by discrete slip surfaces with well-preserved striations — i.e. roughness (Aydin and Johnson, 1978). Offsets in sedimentary beds have allowed previous studies to obtain detailed displacement measurements (e.g. Schultz and Fossen 2002). 
-Together, these field locations offer the chance to survey well-preserved fault surfaces that have hosted displacements from embryonic stages to 30 m of displacement. Moreover, novel to this study, we will be able to survey multiple expressions of a single fault’s surface with various displacements according the displacement profile of the fault. 
+Together, these field locations offer the chance to survey well-preserved fault surfaces that have hosted displacements from embryonic stages to 30 m of displacement. Moreover, novel to this study, we are able to survey multiple expressions of a single fault’s surface with various displacements according the displacement profile of the fault. 
 
 \section{Method}
 
@@ -142,7 +137,7 @@ For the quantitative analysis, we collect scans both \textit{in situ} and from h
 
 	\subsection{Scan Data Acquisition}
 
-To measure slip surface roughness we analyses large point clouds scans of real fault surfaces and average the slip parallel and perpendicular spectral and statistical properties across hundreds of profiles. Point clouds must be obtained across a flexible array of instruments to properly capture the fractal scaling behavior (Brown and Scholtz, 1985; Candela et al., 2012). In this study, we use three instruments with complimentary scales of observation.  Together, these instruments offer accurate and precise three-dimensional discretization of fault surfaces at over nine decades of length scale.
+To measure slip surface roughness, we analyses large point clouds scans of real fault surfaces and average the slip parallel and perpendicular spectral and statistical properties across hundreds of profiles. Point clouds must be obtained across a flexible array of instruments to properly capture the fractal scaling behavior (Brown and Scholtz, 1985; Candela et al., 2012). In this study, we use three instruments with complimentary scales of observation.  Together, these instruments offer accurate and precise three-dimensional discretization of fault surfaces at over nine decades of length scale.
 
 *make a map of each areas with the location of every scan encoded with different symbols*
 
@@ -443,13 +438,25 @@ figures to include:
 \item all spectra
 \item increasing anisotropy (two surfaces) - polar plot
 
+Figure XXX shows the all the PSD calculations obtained from the scans collected in this study. Consistent with previous work, we find that the PSD spectra over the entire bandwidth reported in this study generally follow a linear relation in log-log space. This feature corresponds to the constant fractal scaling. The scaling exponent and pre-factors are calculated based on the slop of a linear least-squares fit of the spectra in log-log space. The Hurst exponent can then be obtained according to equation XXX.
+
+In the slip perpendicular direction, Hurst exponents range from XXX to XXX, with an average value of 0.8ish; Prefactors range from  XXX to XXX with an average value of XXX. In the slip parallel direction, Hurst exponents range from XXX to XXX, with an average value of 0.8ish; Prefactors range from  XXX to XXX with an average value of XXX. Implicit to the pre-processing grid alignment, for any single scan the slip parallel direction is systematically smoother than the slip perpendicular direction indicating a clear surface anisotropy. The entire data set does however indicate an overlapping range in slip parallel and perpendicular directions. We also note that lower pre-factors are generally associated to lower Hurst exponents.
+
+An evolution with displacement is weakly expressed in the spectral analysis but is cluttered and obscured by highly variable errors on displacements and roughness measurements. In order to highlight the effect of displacement on the surface roughness, we separate our scan data into two distinct populations. 1) Scan data with direct displacement constraint and 2) scan data associated to maximum displacement constrains.  Brodsky et al., 2011, tested the validity of a power law relation between fault roughness are various specific scales and displacement. Building upon this approach, we use both data populations to test the validity and parameterization of the fit and the Implicit hypothesis that faults smooth as a function of displacement--the smoothing model. Scan data with direct displacement constraints serves as a direct test and a means to parametrize the smoothing model. For the model to be valid it must agree with further constraints imposed by data with only maximum displacement estimates.
+
+A point defined by the maximum error bound on displacement and the roughness of the fault surface is in agreement with smoothing model if it is rougher that roughness prescribed by the model as parametrized by direct measurement. Conversely, if the point is rougher that the model prediction, it is not physically possible in the model construct. A null hypothesis would prescribe no bound on the roughness and would simply have the predicted roughness of a fault be defined by the probability distribution function of the entire roughness dataset. Accordingly, we can roughly estimate the probability that our distribution of data relative to the smoothing model is a random element of chance according to:
+
+\begin{equation}
+ P = \prod p(y_i>Y(x_i))
+\end{equation} 
+ 
+
+Figures XXX to XXX shows the relation between roughness and displacement as interpolated a various scales of observation. While a power law fit to the best constrained measurements is has poor fit metrics, we find a nearly perfect agreement with roughness measurements only associated to upper bound constraints.
 
 
-We separate our scan data into two distinct populations. 1) Scan data with direct displacement constraint and 2) scan data associated to maximum displacement constrains. We hypothesize that faults smooth as a function of displacement. In this case as done in Brodsky et al., 2011, we test the validity of a power law fit to describe the —the smoothing model. Scan data with direct displacement constraints serves as a direct test of the smoothing model. For the model to be valid it must agree with further constraints imposed by data with only maximum displacement estimates. 
 
-All spectra are plotted and color-coded according to their displacement constraints.
 
-two constraints on displacement – two data populations
+Two constraints on displacement – two data populations
 plot of all the spectra color coded with displacement
 smoothing plots:
 	parallel -> all scales
@@ -476,6 +483,29 @@ qualitative illustration of maturity
 %Observations from this study do not necessarily agree with this paradigm. deformation bands active after the onset of a stable slip surface \textit{have} been observed at Big Hole (Shipton and Cowie, 2003). Onset of late deformation bands may reconcile our observations with the existing paradigm for fault development in high porosity sandstones. We intend to explore the surface roughness of the edge of deformation band clusters. In a sense, these surfaces could represent a 'primordial roughness'.%
 
 %At some locations, take for instance the Blueberry Fault in the Chimney Rock Fault Array, deformations bands seems to be the overwhelming mechanism to accommodate off-fault damage. When considering issues of fault mismatch related to roughness and consecutive displacement, deformation bands may be an effective mechanism to accommodate inelastic fault perpendicular deformation.%
+
+\subsection{Hard facts}
+
+The following is a list of  `hard facts' that can be established from the both the qualitative and quantitative data:
+
+\begin{itemize}
+\item faults are smoother than joints or deformation bands
+	\begin{itemize}
+		\item power spectrum shows that fault slip surfaces are systematically smoother that joint and deformation band surfaces  at all wave lengths reported in this study ($10^-6$ to $10^5$ meters)
+	\end{itemize}
+\item At the grains scale, grains are truncated
+\item The roughness of a slip surface is sensitive to its displacement history. This result is robust across multiple faults both nucleated from deformation bands and joints and variations in fault rock and host rock lithology.
+\item The smoothing exponent is likely more than 1 at certain scales - quote from Emily: ``In all of these cases, the scatter of the data is large, but the basic result holds: the absolute value of the exponent is much less than 1.''
+\item The smoothing rate is highest at small displacements and decreases with displacement.
+\item Smoothing occurs at all scales of this study
+\item a slip surface from a large offset fault is more likely to be smoother
+\item for any given the displacement on a fault, the smoothest slip surface roughly follows the same smoothing trend as that defined by direct displacement measurements. 
+\item The roughness varies spatially on a slip surface - the scatter in the data exceeds the instrumental error
+\item the height distribution of points on a slip surface can be far from normally distributed.
+\item the Hurst exponent has a very large range in values (less than Zero to ~0.9)
+\item more linear fault traces where not offset by wavier fault traces
+
+\end{itemize}
 
 \section{Model}
 	\subsection{Modelling Objectives}
@@ -612,9 +642,8 @@ For reference, here is a quick outline of what each function does:
 	\item[] \textit{surface\_cleaning}: removes outliers associated to surface defects
 	\item[] surface\_parameters: calculates spatial statistics and parameters along segments as a function of scale (RMS, skewness, directional asymmetry and kurtosis)
 	\item[] \textit{surface\_preprocessing\_2}: deals with preprocessing input data (import data, cleaning and gridding data)
-
 \end{itemize}
-
+\end{itemize}
 
 \end{document}
 
