@@ -254,7 +254,7 @@ INCLUDE HISTOGRAMS FOR EACH FILTER
 
 \textit{Defect} include all physical surface features that are clearly not associated any faulting process, \textit{e.g.} cracks, eroded patches, vegetation, etc.. Defects are idenetified and filtered out using combination of thresholding methods. These methods all revolve around identifying clear points or segments that are statistical outliers to the distribution characterizing the entire surface--abnormal points. 
 
-The most aggressive filter implemented searches for outliers to the fractal model. The filter removes entire linear segments with abnormally high variance in the height field for the given scale of observation. For this implementation, I iterate over 10 filter scales. The scales are selected using a log spacing from the 10 points up to the length of the entire surface. The threshold for segment removal is chosen to be four standard deviations from the mean (should account for $<0.1$ percent of the data in a normal distribution). Note that, assuming a normal distribution of variance data for a given scale, the filter should not induce a systematic bias since the filtering is symmetric around the mean. However, surface features associated with a truly distinct mechanism of formation, in this case cracks and other defects that will typically have much higher variance, \textit{are} be removed. This general approach ensures that defects, regardless of their scale get idenetified and removed. This is important for any subsequent fractal analysis.
+The most aggressive filter implemented searches for outliers to the fractal model. The filter removes entire linear segments with abnormally high variance in the height field for the given scale of observation. For this implementation, I iterate over 10 filter scales. The scales are selected using a log spacing from the 10 points up to the length of the entire surface. The threshold for segment removal is chosen to be four standard deviations from the mean (should account for $<0.1$ percent of the data in a normal distribution). Note that, assuming a normal distribution of variance data for a given scale, the filter should not induce a systematic bias since the filtering is symmetric around the mean. However, surface features associated with a truly distinct mechanism of formation, in this case cracks and other defects that will typically have much higher variance, \textit{are} be removed. This general approach ensures that defects, regardless of their scale get identified and removed. This is important for any subsequent fractal analysis.
 
 Abnormally flat sections arise as the result of triangular interpolation of sparse points. Typically, interpolation on the edge on a non-convex set of points is subject to this effect. These artefacts are readily identified in the curvature data. In the log-transformed absolute value curvature field, these sections appear to be nearly or exactly zero. The filter rejects point with curvatures less than $10^{-25}$. These values likely associated to the linear interpolation scheme.
 
@@ -265,8 +265,19 @@ Pre-prossed scans are $N$ by $M$ scalar fields of fault surface topography(the s
 		
 
 		\subsubsection{Spectral Analysis}
-		
 
+After pre-processing, scans discretize defect-free slip surfaces with grids with rows aligned with the slip direction. We compute the power spectral density content for every continuous segment of every single profile of the grid using a Fast Fourier Transform (FFT). Individual spectra are interpolated onto a master frequency vector. For a given frequency, the distribution of power values across the profiles through along the slip is strongly skewed (see figure xxx). The skewness is attributable to the non-negative constraint on power and residual outlying profiles (defects not properly removed). To provide a more representative and robust measure of maximum likelihood, we use the geometrical mean instead of the arithmetical mean. Accordingly, errors represent the 1$\sigma$ range in the log-transformed distribution. The analysis yields one representative spectrum for each scan.
+
+In the spatial frequency content, fractal scaling is expressed as a power law. Extracting fractal characteristic form Consistent with previous work (XXXXX), our scans for a given slip surface display fixed scaling across out instrumental array (see figure XXX). The fixed scaling provides means to remove instrumental artefacts. For our instruments, artefacts are particularly disruptive at the small scale instrumental limit. The LiDar and laser scanner are dominated by random noise, a shallower slope at the high frequency tail of the spectra. Conversely, the spectra of the scan collected using the white light interferometer have steeper high frequency tails. By comparing individual scan to a manually identified scaling across all our instrumental scales of observation, we identify a conservatively defined bandwith overwhich the data is valid. We reject data associated to affected frequencies for subsequent analysis.
+
+We can further distill the roughness metric using the fractal model of the fault:
+
+\begin{equation}
+P(k) = Ck^{-\beta}
+\end{equation}
+
+Accordingly the entire spectral information of a scan can be summarized with the prefactor ($C$) and the scaling exponent ($\beta$). The fractal model is parametrized using a power law regression through the spectra
+		
 		\subsubsection{More Spatial Statistics}
 	
 
@@ -451,7 +462,12 @@ A point defined by the maximum error bound on displacement and the roughness of 
 \end{equation} 
  
 
-Figures XXX to XXX shows the relation between roughness and displacement as interpolated a various scales of observation. While a power law fit to the best constrained measurements is has poor fit metrics, we find a nearly perfect agreement with roughness measurements only associated to upper bound constraints.
+Figures XXX to XXX shows the relation between roughness and displacement as interpolated a various scales of observation. Vertical error bars on the power spectral density are obtained from the confidence interval of the of the fractal model regression. Horizontal errorbars on displacement are defined on a case by case basis from field observations and previous work in on the fault arrays. We present both the fit through the our entire dataset (comprised of direct and upper bound constraints on displacement) and through the the directly constrained displacement estimates. Fits are obtained using a least squares linear regression through the log-transformed data sets. In order to provide error bounds on the fit parameters, we use a full Monte Carlo simulation sampling direct displacement estimated as Gaussian distributions, upper bound displacement constrains as completely random distributions across the entire possible range of displacements and power spectral density estimates as log normal distributions. Errors represent on standard deviation estimated from 10000 simulations.
+
+
+The weak trend across the entire dataset imply and expectation of smoother slip surfaces in fault zones which have accommodated larger displacement. 
+
+Conversely the stronger trend across the well constrained data implies that an individual slip surface smooths with displacement. The smoothing exponent varies according to the different scales of observation (XXX at the laser at the centimeter scale, XXX at the milimeter scale and XXX at the micron scale).  While a power law fit to the best constrained measurements is has poor fit metrics, we find a nearly perfect agreement with roughness measurements only associated to upper bound constraints.
 
 
 
