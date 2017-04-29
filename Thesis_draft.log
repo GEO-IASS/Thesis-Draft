@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.29)  28 FEB 2017 16:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.29)  28 APR 2017 03:20
 entering extended mode
 **./Thesis_draft.tex
 (Thesis_draft.tex
@@ -362,6 +362,9 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@dimlist=\toks22
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -515,22 +518,26 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 )
 \enitdp@arrowlist=\count118
 
-(Thesis_draft.aux)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cite\cite.sty"
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+No file Thesis_draft.aux.
 \openout1 = `Thesis_draft.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -539,15 +546,15 @@ LaTeX Font Info:    ... okay on input line 28.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
-* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
+* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=483.69687pt
-* \textheight=731.23584pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
-* \topmargin=-52.36449pt
+* \textwidth=418.25368pt
+* \textheight=591.5302pt
+* \oddsidemargin=17.3571pt
+* \evensidemargin=17.3571pt
+* \topmargin=-7.86334pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -606,102 +613,390 @@ LaTeX Info: Redefining \selectfont on input line 126.
 \RaggedRightParindent=\skip61
 \JustifyingParindent=\skip62
 )
-LaTeX Font Info:    Try loading font information for U+esint on input line 30.
+LaTeX Font Info:    Try loading font information for U+esint on input line 34.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\esint\uesint.fd"
 File: uesint.fd 
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 30.
+LaTeX Font Info:    Try loading font information for U+msa on input line 34.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 30.
+LaTeX Font Info:    Try loading font information for U+msb on input line 34.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+! Undefined control sequence.
+l.36 \printbibliography
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-{C:/Users/kelian_dc/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3]
- [4]
-[5] [6] [7
+[1
+
+{C:/Users/kelian_dc/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+
+LaTeX Warning: Citation `sibson1977fault' on page 2 undefined on input line 48.
+
+
+
+LaTeX Warning: Citation `lay1982asperity' on page 2 undefined on input line 48.
+
+
+
+LaTeX Warning: Citation `aki1984asperities' on page 2 undefined on input line 4
+8.
+
+
+LaTeX Warning: Citation `power1988roughness' on page 2 undefined on input line 
+48.
+
+
+LaTeX Warning: Citation `chester2000stress' on page 2 undefined on input line 4
+8.
+
+[2]
+
+LaTeX Warning: Citation `davatzes2005distribution' on page 3 undefined on input
+ line 50.
+
+
+LaTeX Warning: Citation `scholz1986fractal' on page 3 undefined on input line 5
+0.
+
+
+LaTeX Warning: Citation `candela2011fault' on page 3 undefined on input line 50
+.
+
+
+LaTeX Warning: Citation `sagy2009geometric' on page 3 undefined on input line 5
+0.
+
+
+LaTeX Warning: Citation `scholz1986fractal' on page 3 undefined on input line 5
+0.
+
+
+LaTeX Warning: Citation `candela2011fault' on page 3 undefined on input line 50
+.
+
+
+LaTeX Warning: Citation `lee1996structural' on page 3 undefined on input line 5
+0.
+
+
+LaTeX Warning: Citation `sagy2007geometric' on page 3 undefined on input line 5
+0.
+
+
+LaTeX Warning: Citation `brodsky2011faults' on page 3 undefined on input line 5
+0.
+
+
+LaTeX Warning: Citation `chester2000stress' on page 3 undefined on input line 5
+0.
+
+
+LaTeX Warning: Citation `brodsky2016constraints' on page 3 undefined on input l
+ine 50.
+
+
+LaTeX Warning: Citation `parsons2008persistent' on page 3 undefined on input li
+ne 50.
+
+
+LaTeX Warning: Citation `candela2011stress' on page 3 undefined on input line 5
+0.
+
+
+LaTeX Warning: Citation `brodsky2016constraints' on page 3 undefined on input l
+ine 50.
+
+
+LaTeX Warning: Citation `candela2011stress' on page 3 undefined on input line 5
+0.
+
+
+LaTeX Warning: Citation `shi2013rupture' on page 3 undefined on input line 50.
+
+[3]
+
+LaTeX Warning: Citation `candela2010characterization' on page 4 undefined on in
+put line 54.
+
+
+LaTeX Warning: Citation `brodsky2016constraints' on page 4 undefined on input l
+ine 54.
+
+[4] [5] [6] [7]
+
+LaTeX Warning: Citation `power1988roughness' on page 8 undefined on input line 
+109.
+
+
+LaTeX Warning: Citation `sagy2009geometric' on page 8 undefined on input line 1
+09.
+
+
+LaTeX Warning: Citation `brodsky2011faults' on page 8 undefined on input line 1
+09.
+
+[8]
+
+LaTeX Warning: Citation `power1988roughness' on page 9 undefined on input line 
+127.
+
+
+LaTeX Warning: Citation `scholz1987wear' on page 9 undefined on input line 127.
+
+
+
+LaTeX Warning: Citation `swanson1989sidewall' on page 9 undefined on input line
+ 127.
+
+[9]
+
+LaTeX Warning: Citation `brodsky2011faults' on page 10 undefined on input line 
+129.
+
+[10]
+
+LaTeX Warning: Citation `sibson1977fault' on page 11 undefined on input line 14
+1.
+
+[11] [12]
+
+LaTeX Warning: Citation `krantz1986orthorhombic' on page 13 undefined on input 
+line 152.
+
+
+LaTeX Warning: Citation `krantz1986orthorhombic' on page 13 undefined on input 
+line 152.
+
+
+LaTeX Warning: Citation `krantz1986orthorhombic' on page 13 undefined on input 
+line 152.
+
+
+LaTeX Warning: Citation `maerten2001digital' on page 13 undefined on input line
+ 152.
+
+
+LaTeX Warning: Citation `maerten2001digital' on page 13 undefined on input line
+ 152.
+
+
+LaTeX Warning: Citation `maerten2001digital' on page 13 undefined on input line
+ 152.
+
+[13] [14]
+Overfull \hbox (35.83806pt too wide) in paragraph at lines 181--182
+ [][] 
+ []
+
+[15
 
 
 ]
-
-LaTeX Warning: Citation `davatzes2000' on page 8 undefined on input line 172.
-
-
-LaTeX Warning: Citation `shipton' on page 8 undefined on input line 174.
+Overfull \vbox (186.48326pt too high) has occurred while \output is active []
 
 
-LaTeX Warning: Citation `fossen' on page 8 undefined on input line 174.
+[16] [17]
 
-[8
+LaTeX Warning: Citation `fossen2007deformation' on page 18 undefined on input l
+ine 193.
 
 
-] <DBC_edge.jpg, id=43, 1070.42194pt x 802.81645pt>
+LaTeX Warning: Citation `davatzes2003overprinting' on page 18 undefined on inpu
+t line 193.
+
+
+LaTeX Warning: Citation `davatzes2003overprinting' on page 18 undefined on inpu
+t line 193.
+
+
+LaTeX Warning: Citation `aydin1977faulting' on page 18 undefined on input line 
+193.
+
+
+LaTeX Warning: Citation `fossen2007deformation' on page 18 undefined on input l
+ine 195.
+
+
+LaTeX Warning: Reference `grain_size' on page 18 undefined on input line 195.
+
+
+LaTeX Warning: Citation `fossen2007deformation' on page 18 undefined on input l
+ine 195.
+
+
+LaTeX Warning: Reference `deformation_band' on page 18 undefined on input line 
+195.
+
+[18
+
+
+] <Grain_size_distribution.jpg, id=73, 433.62pt x 325.215pt>
+File: Grain_size_distribution.jpg Graphic file (type jpg)
+
+<use Grain_size_distribution.jpg>
+Package pdftex.def Info: Grain_size_distribution.jpg used on input line 200.
+(pdftex.def)             Requested size: 418.25368pt x 313.70645pt.
+
+<Defomation_Bands.jpg, id=74, 1070.42194pt x 802.81645pt>
+File: Defomation_Bands.jpg Graphic file (type jpg)
+
+<use Defomation_Bands.jpg>
+Package pdftex.def Info: Defomation_Bands.jpg used on input line 210.
+(pdftex.def)             Requested size: 418.25368pt x 313.68515pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[19 <./Grain_size_distribution.jpg>]
+
+LaTeX Warning: Reference `DBC' on page 20 undefined on input line 218.
+
+
+LaTeX Warning: Reference `DBC' on page 20 undefined on input line 218.
+
+[20 <./Defomation_Bands.jpg>]
+
+LaTeX Warning: Citation `davatzes2003overprinting' on page 21 undefined on inpu
+t line 220.
+
+<DBC_edge.jpg, id=82, 1070.42194pt x 802.81645pt>
 File: DBC_edge.jpg Graphic file (type jpg)
  <use DBC_edge.jpg>
-Package pdftex.def Info: DBC_edge.jpg used on input line 185.
-(pdftex.def)             Requested size: 193.47578pt x 145.10097pt.
+Package pdftex.def Info: DBC_edge.jpg used on input line 227.
+(pdftex.def)             Requested size: 167.2989pt x 125.46425pt.
 
-<DBC_X.jpg, id=44, 1070.42194pt x 802.81645pt>
+<DBC_X.jpg, id=83, 1070.42194pt x 802.81645pt>
 File: DBC_X.jpg Graphic file (type jpg)
  <use DBC_X.jpg>
-Package pdftex.def Info: DBC_X.jpg used on input line 189.
-(pdftex.def)             Requested size: 193.47578pt x 145.10097pt.
- [9 <./DBC_edge.jpg> <./DBC_X.jpg>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 212.
+Package pdftex.def Info: DBC_X.jpg used on input line 231.
+(pdftex.def)             Requested size: 167.2989pt x 125.46425pt.
+ [21 <./DBC_edge.jpg> <./DBC_X.jpg>]
+<Fault_architecture_zoom.jpg, id=87, 1070.42194pt x 802.81645pt>
+File: Fault_architecture_zoom.jpg Graphic file (type jpg)
+
+<use Fault_architecture_zoom.jpg>
+Package pdftex.def Info: Fault_architecture_zoom.jpg used on input line 244.
+(pdftex.def)             Requested size: 418.25368pt x 313.68515pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[22]
+
+LaTeX Warning: Citation `aydin1977faulting' on page 23 undefined on input line 
+251.
+
+[23] [24] <two_slip_surfaces.jpg, id=97, 1070.42194pt x 802.81645pt>
+File: two_slip_surfaces.jpg Graphic file (type jpg)
+
+<use two_slip_surfaces.jpg>
+Package pdftex.def Info: two_slip_surfaces.jpg used on input line 267.
+(pdftex.def)             Requested size: 167.2989pt x 125.46425pt.
+
+<Concentric.jpg, id=98, 1070.42194pt x 802.81645pt>
+File: Concentric.jpg Graphic file (type jpg)
+ <use Concentric.jpg>
+Package pdftex.def Info: Concentric.jpg used on input line 271.
+(pdftex.def)             Requested size: 167.2989pt x 125.46425pt.
+
+<PSS.jpg, id=99, 1070.42194pt x 802.81645pt>
+File: PSS.jpg Graphic file (type jpg)
+ <use PSS.jpg>
+Package pdftex.def Info: PSS.jpg used on input line 279.
+(pdftex.def)             Requested size: 418.25368pt x 313.68515pt.
+
+
+LaTeX Warning: Citation `davatzes2003overprinting' on page 25 undefined on inpu
+t line 287.
+
+
+LaTeX Warning: Citation `maerten2001digital' on page 25 undefined on input line
+ 287.
+
+
+LaTeX Warning: Citation `aydin1978development' on page 25 undefined on input li
+ne 287.
+
+[25]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 293.
 
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 212.
- <two_slip_surfaces.jpg, id=48, 1070.42194pt x 802.81645pt>
-File: two_slip_surfaces.jpg Graphic file (type jpg)
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 293.
+ [26]
 
-<use two_slip_surfaces.jpg>
-Package pdftex.def Info: two_slip_surfaces.jpg used on input line 231.
-(pdftex.def)             Requested size: 193.47578pt x 145.10097pt.
+LaTeX Warning: Reference `fig:DavatzesFR' on page 27 undefined on input line 33
+5.
 
-<Concentric.jpg, id=49, 1070.42194pt x 802.81645pt>
-File: Concentric.jpg Graphic file (type jpg)
- <use Concentric.jpg>
-Package pdftex.def Info: Concentric.jpg used on input line 235.
-(pdftex.def)             Requested size: 193.47578pt x 145.10097pt.
-
-<PSS.jpg, id=50, 1070.42194pt x 802.81645pt>
-File: PSS.jpg Graphic file (type jpg)
- <use PSS.jpg>
-Package pdftex.def Info: PSS.jpg used on input line 243.
-(pdftex.def)             Requested size: 483.69687pt x 362.77081pt.
- [10 <./two_slip_surfaces.jpg> <./Concentric.jpg>] [11 <./PSS.jpg>]
-
-LaTeX Warning: Reference `fig:DavatzesFR' on page 12 undefined on input line 28
-8.
-
-
-Overfull \hbox (1.19267pt too wide) in paragraph at lines 297--297
+[27]
+Overfull \hbox (0.5059pt too wide) in paragraph at lines 347--347
 []\OT1/cmr/bx/n/14.4 Interpretation of field ob-ser-va-tions and rough-ness mea
--sure-ments 
+-
  []
 
-[12] [13] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24]
-(Thesis_draft.aux)
+[28] [29] [30] [31] [32] [33] [34] [35]
+Overfull \hbox (3.61926pt too wide) in paragraph at lines 464--465
+[]\OT1/cmr/m/n/12 Fault sur-faces are anisotropic. The di-rec-tion of slip is p
+re-served in the anisotropy
+ []
+
+[36] [37] [38] [39] [40] [41] [42] [43]
+Overfull \hbox (7.02658pt too wide) in paragraph at lines 569--570
+[]\OT1/cmr/m/n/12 power spec-trum shows that fault slip sur-faces are sys-tem-a
+t-i-cally smoother
+ []
+
+[44]
+
+LaTeX Warning: Citation `chester2000stress' on page 45 undefined on input line 
+587.
+
+
+LaTeX Warning: Citation `crouch1982boundary' on page 45 undefined on input line
+ 587.
+
+[45] [46] [47] [48] [49] (Thesis_draft.bbl) [50] [51] [52]
+Overfull \hbox (2.10414pt too wide) in paragraph at lines 712--713
+[]\OT1/cmr/m/it/12 'PLOMB'\OT1/cmr/m/n/12 : pe-ri-odogram plot as de-ter-mined 
+by the Lomb-Scargle least squares
+ []
+
+[53]
+Overfull \hbox (5.71063pt too wide) in paragraph at lines 734--735
+[]\OT1/cmr/m/it/12 fractal_model_outlier\OT1/cmr/m/n/12 : Re-moves out-ly-ing s
+eg-ments ac-cord-ing to a near-gaussian
+ []
+
+[54] [55] [56 <./Fault_architecture_zoom.jpg>] [57 <./two_slip_surfaces.jpg> <.
+/Concentric.jpg> <./PSS.jpg>] (Thesis_draft.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 5199 strings out of 493634
- 75603 string characters out of 3141302
- 149431 words of memory out of 3000000
- 8472 multiletter control sequences out of 15000+200000
- 16342 words of font info for 67 fonts, out of 3000000 for 9000
+ 5354 strings out of 493634
+ 78232 string characters out of 3141302
+ 147362 words of memory out of 3000000
+ 8617 multiletter control sequences out of 15000+200000
+ 15996 words of font info for 66 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 36i,8n,39p,2255b,398s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,8n,39p,2686b,447s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/
@@ -715,13 +1010,12 @@ les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files
 MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files (x86)/MiK
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
-onts/type1/public/esint/esint10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/symbols/msam10.pfb>
-Output written on Thesis_draft.pdf (24 pages, 36031913 bytes).
+.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/public/esint/esint10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
+type1/public/amsfonts/symbols/msam10.pfb>
+Output written on Thesis_draft.pdf (57 pages, 42565096 bytes).
 PDF statistics:
- 152 PDF objects out of 1000 (max. 8388607)
+ 258 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
