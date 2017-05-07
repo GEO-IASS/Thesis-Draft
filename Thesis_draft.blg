@@ -1,8 +1,16 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Thesis_draft.aux
-I couldn't open style file numeric.bst
----line 13 of file Thesis_draft.aux
- : \bibstyle{numeric
- :                  }
-I'm skipping whatever remains of this command
-I found no style file---while reading file Thesis_draft.aux
-(There were 2 error messages)
+The style file: plain.bst
+Database file #1: Thesis_draft.bib
+Warning--I didn't find a database entry for "meade2007algorythms"
+Warning--I didn't find a database entry for "okubo1984nonplanar"
+Warning--I didn't find a database entry for "sagy2007geometric"
+Warning--I didn't find a database entry for "greenwood1966"
+Warning--I didn't find a database entry for "XXX"
+Warning--I didn't find a database entry for "rathburn2013Numerical"
+Warning--I didn't find a database entry for "dieterich1996imaging"
+Warning--can't use both volume and number fields in greenwood1966contact
+Warning--empty journal in mandelbrot1984fractal
+Warning--can't use both volume and number fields in palmer1973growth
+Warning--can't use both volume and number fields in scholz1976role
+Warning--can't use both volume and number fields in summers1977note
+(There were 12 warnings)
