@@ -1,16 +1,21 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Thesis_draft.aux
 The style file: plain.bst
 Database file #1: Thesis_draft.bib
-Warning--I didn't find a database entry for "meade2007algorythms"
+Warning--I didn't find a database entry for "hubert1959role"
+Warning--I didn't find a database entry for "holsworth2001structure"
+Warning--I didn't find a database entry for "sibson2003thick"
 Warning--I didn't find a database entry for "okubo1984nonplanar"
 Warning--I didn't find a database entry for "sagy2007geometric"
 Warning--I didn't find a database entry for "greenwood1966"
 Warning--I didn't find a database entry for "XXX"
 Warning--I didn't find a database entry for "rathburn2013Numerical"
 Warning--I didn't find a database entry for "dieterich1996imaging"
+Warning--I didn't find a database entry for "fault_nucleation_b"
+Warning--empty journal in davatzes2005distribution
 Warning--can't use both volume and number fields in greenwood1966contact
+Warning--there's a number but no series in kelley1960fracture
 Warning--empty journal in mandelbrot1984fractal
 Warning--can't use both volume and number fields in palmer1973growth
 Warning--can't use both volume and number fields in scholz1976role
 Warning--can't use both volume and number fields in summers1977note
-(There were 12 warnings)
+(There were 17 warnings)

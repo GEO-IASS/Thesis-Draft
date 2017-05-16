@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 
 \bibitem{aki1984asperities}
 Keiiti Aki.
@@ -54,6 +54,12 @@ Andrea Bistacchi, W~Ashley Griffith, Steven~AF Smith, Giulio Di~Toro, Richard
 \newblock Fault roughness at seismogenic depths from lidar and photogrammetric
   analysis.
 \newblock {\em Pure and Applied Geophysics}, 168(12):2345--2363, 2011.
+
+\bibitem{blenkinsop1989thickness}
+Tom~G Blenkinsop.
+\newblock Thickness—displacement relationships for deformation zones:
+  Discussion.
+\newblock {\em Journal of Structural Geology}, 11(8):1051--1053, 1989.
 
 \bibitem{bouchaud1997scaling}
 Elisabeth Bouchaud.
@@ -153,6 +159,12 @@ Frederick~M Chester and Judith~S Chester.
 \newblock {\em Journal of Geophysical Research: Solid Earth},
   105(B10):23421--23430, 2000.
 
+\bibitem{chester1993internal}
+Frederick~M Chester, James~P Evans, and Ronald~L Biegel.
+\newblock Internal structure and weakening mechanisms of the san andreas fault.
+\newblock {\em Journal of Geophysical Research: Solid Earth}, 98(B1):771--786,
+  1993.
+
 \bibitem{chester1997stress}
 Judith~S Chester and Raymond~C Fletcher.
 \newblock Stress distribution and failure in anisotropic rock near a bend on a
@@ -171,11 +183,22 @@ ML~Cooke and DD~Pollard.
 \newblock Bedding-plane slip in initial stages of fault-related folding.
 \newblock {\em Journal of Structural Geology}, 19(3-4):567--581, 1997.
 
+\bibitem{cowie1998fault}
+Patience~A Cowie and Zoe~K Shipton.
+\newblock Fault tip displacement gradients and process zone dimensions.
+\newblock {\em Journal of Structural Geology}, 20(8):983--997, 1998.
+
 \bibitem{crouch1982boundary}
 Steven~L Crouch and AM~Starfield.
 \newblock {\em Boundary element methods in solid mechanics: with applications
   in rock mechanics and geological engineering}.
 \newblock Allen \& Unwin, 1982.
+
+\bibitem{davatzes2005distribution}
+NC~Davatzes and A~Aydin.
+\newblock Distribution and nature of fault architecture in a layered sandstone
+  and shale sequence: An example from the moab fault, utah.
+\newblock 2005.
 
 \bibitem{davatzes2003overprinting}
 Nicholas~C Davatzes, Atilla Aydin, and Peter Eichhubl.
@@ -207,12 +230,29 @@ James~T Engelder.
 \newblock {\em Geological Society of America Bulletin}, 85(10):1515--1522,
   1974.
 
+\bibitem{evans1990thickness}
+James~P Evans.
+\newblock Thickness-displacement relationships for fault zones.
+\newblock {\em Journal of structural geology}, 12(8):1061--1065, 1990.
+
 \bibitem{fang2013additional}
 Zijun Fang and Eric~M Dunham.
 \newblock Additional shear resistance from fault roughness and stress levels on
   geometrically complex faults.
 \newblock {\em Journal of Geophysical Research: Solid Earth},
   118(7):3642--3654, 2013.
+
+\bibitem{fossen1998deformation}
+Haakon Fossen and Jonny Hesthammer.
+\newblock Deformation bands and their significance in porous sandstone
+  reservoirs.
+\newblock {\em First Break}, 16(1):21--25, 1998.
+
+\bibitem{fossen2005fault}
+Haakon Fossen, Tord Erlend~Skeie Johansen, Jonny Hesthammer, and Atle Rotevatn.
+\newblock Fault interaction in porous sandstone and implications for reservoir
+  management; examples from southern utah.
+\newblock {\em AAPG bulletin}, 89(12):1593--1606, 2005.
 
 \bibitem{fossen2007deformation}
 Haakon Fossen, Richard~A Schultz, Zoe~K Shipton, and Karen Mair.
@@ -251,6 +291,11 @@ RR~Jones, S~Kokkalas, and KJW McCaffrey.
   as a case study.
 \newblock {\em Geosphere}, 5(6):465--482, 2009.
 
+\bibitem{kelley1960fracture}
+Vincent~Cooper Kelley and N~James Clinton.
+\newblock {\em Fracture systems and tectonic elements of the Colorado Plateau}.
+\newblock Number 6-7. University of New Mexico Press, 1960.
+
 \bibitem{kilsdonk1989analytical}
 Bill Kilsdonk and Raymond~C Fletcher.
 \newblock An analytical model of hanging-wall and footwall deformation at ramps
@@ -262,6 +307,12 @@ S~Kokkalas, RR~Jones, KJW McCaffrey, and P~Clegg.
 \newblock Quantitative fault analysis at arkitsa, central greece, using
   terrestrial laser-scanning (lidar).
 \newblock {\em Bulletin of the Geological Society of Greece}, 37:1--14, 2007.
+
+\bibitem{krantz1989orthorhombic}
+Robert~W Krantz.
+\newblock Orthorhombic fault patterns: the odd axis model and slip vector
+  orientations.
+\newblock {\em Tectonics}, 8(3):483--495, 1989.
 
 \bibitem{krantz1986orthorhombic}
 RW~Krantz.
@@ -314,6 +365,12 @@ KR~McClay and PG~Ellis.
 \newblock {\em Geological Society, London, Special Publications},
   28(1):109--125, 1987.
 
+\bibitem{meade2007algorithms}
+Brendan~J Meade.
+\newblock Algorithms for the calculation of exact displacements, strains, and
+  stresses for triangular dislocation elements in a uniform elastic half space.
+\newblock {\em Computers \& geosciences}, 33(8):1064--1075, 2007.
+
 \bibitem{meng1995wear}
 HC~Meng and KC~Ludema.
 \newblock Wear models and predictive equations: their form and content.
@@ -324,6 +381,11 @@ MS~Moreno, J~Bolte, J~Klotz, and Dr~Melnick.
 \newblock Impact of megathrust geometry on inversion of coseismic slip from
   geodetic data: Application to the 1960 chile earthquake.
 \newblock {\em Geophysical Research Letters}, 36(16), 2009.
+
+\bibitem{myers1999structure}
+Rodrick~Dane Myers.
+\newblock {\em Structure and hydraulics of brittle faults in sandstone}.
+\newblock PhD thesis, Stanford University, 1999.
 
 \bibitem{okada1992internal}
 Yoshimitsu Okada.
@@ -337,6 +399,13 @@ Paul~G Okubo and James~H Dieterich.
   produced on simulated faults.
 \newblock {\em Journal of Geophysical Research: Solid Earth},
   89(B7):5817--5827, 1984.
+
+\bibitem{otsuki2003fluidization}
+Kenshiro Otsuki, Nobuaki Monzawa, and Toshiro Nagase.
+\newblock Fluidization and melting of fault gouge during seismic slip:
+  Identification in the nojima fault zone and implications for focal earthquake
+  mechanisms.
+\newblock {\em Journal of Geophysical Research: Solid Earth}, 108(B4), 2003.
 
 \bibitem{palmer1973growth}
 Andrew~Clennel Palmer and JR~Rice.
@@ -368,6 +437,12 @@ WL~Power, TE~Tullis, SR~Brown, GN~Boitnott, and CH~Scholz.
 CA~Queener, TC~Smith, and WL~Mitchell.
 \newblock Transient wear of machine parts.
 \newblock {\em Wear}, 8(5):391--400, 1965.
+
+\bibitem{renard2006high}
+Fran{\c{c}}ois Renard, Christophe Voisin, David Marsan, and Jean Schmittbuhl.
+\newblock High resolution 3d laser scanner measurements of a strike-slip fault
+  quantify its morphological anisotropy at all scales.
+\newblock {\em Geophysical Research Letters}, 33(4), 2006.
 
 \bibitem{ritz2015influence}
 Elizabeth Ritz, David~D Pollard, and Michael Ferris.
@@ -435,6 +510,12 @@ Christopher~H Scholz.
 \newblock Wear and gouge formation in brittle faulting.
 \newblock {\em Geology}, 15(6):493--495, 1987.
 
+\bibitem{schultz2002displacement}
+Richard~A Schultz and Haakon Fossen.
+\newblock Displacement--length scaling in three dimensions: the importance of
+  aspect ratio and application to deformation bands.
+\newblock {\em Journal of Structural Geology}, 24(9):1389--1411, 2002.
+
 \bibitem{segall1980mechanics}
 Paul Segall and DD~Pollard.
 \newblock Mechanics of discontinuous faults.
@@ -452,6 +533,25 @@ Zheqiang Shi and Steven~M Day.
 \newblock Rupture dynamics and ground motion from 3-d rough-fault simulations.
 \newblock {\em Journal of Geophysical Research: Solid Earth},
   118(3):1122--1141, 2013.
+
+\bibitem{shipton2001damage}
+ZK~Shipton and PA~Cowie.
+\newblock Damage zone and slip-surface evolution over $\mu$m to km scales in
+  high-porosity navajo sandstone, utah.
+\newblock {\em Journal of Structural Geology}, 23(12):1825--1844, 2001.
+
+\bibitem{shipton2003conceptual}
+Zoe~K Shipton and Patience~A Cowie.
+\newblock A conceptual model for the origin of fault damage zone structures in
+  high-porosity sandstone.
+\newblock {\em Journal of Structural Geology}, 25(3):333--344, 2003.
+
+\bibitem{shipton2002structural}
+Zoe~K Shipton, James~P Evans, Kim~R Robeson, Craig~B Forster, and Stephen
+  Snelgrove.
+\newblock Structural heterogeneity and permeability in faulted eolian
+  sandstone: Implications for subsurface modeling of faults.
+\newblock {\em AAPG bulletin}, 86(5):863--883, 2002.
 
 \bibitem{shipton2006thick}
 Zoe~K Shipton, Aisling~M Soden, James~D Kirkpatrick, Aileen~M Bright, and
@@ -488,6 +588,20 @@ R~Summers and J~Byerlee.
 Mark~T Swanson.
 \newblock Sidewall ripouts in strike-slip faults.
 \newblock {\em Journal of Structural Geology}, 11(8):933--948, 1989.
+
+\bibitem{torabi2009spatial}
+Anita Torabi and Haakon Fossen.
+\newblock Spatial variation of microstructure and petrophysical properties
+  along deformation bands in reservoir sandstones.
+\newblock {\em AAPG bulletin}, 93(7):919--938, 2009.
+
+\bibitem{vrolijk2005anatomy}
+Peter Vrolijk, Rod Myers, Michael~L Sweet, Zoe~K Shipton, Ben Dockrill, James~P
+  Evans, Jason Heath, and Anthony~P Williams.
+\newblock Anatomy of reservoir-scale normal faults in central utah:
+  Stratigraphic controls and implications for fault zone evolution and fluid
+  flow.
+\newblock {\em Field Guides}, 6:261--282, 2005.
 
 \bibitem{wang1994wear}
 Weibin Wang and Christopher~H Scholz.

@@ -119,6 +119,17 @@ OPTannote = {•}
   publisher={Elsevier}
 }
 
+@article{blenkinsop1989thickness,
+  title={Thickness—displacement relationships for deformation zones: Discussion},
+  author={Blenkinsop, Tom G},
+  journal={Journal of Structural Geology},
+  volume={11},
+  number={8},
+  pages={1051--1053},
+  year={1989},
+  publisher={Elsevier}
+}
+
 @article{brodsky2011faults,
   title={Faults smooth gradually as a function of slip},
   author={Brodsky, Emily E and Gilchrist, Jacquelyn J and Sagy, Amir and Collettini, Cristiano},
@@ -192,12 +203,14 @@ OPTannote = {•}
   publisher={Geological Society of America}
 }
 
-@article{candela2010characterization,
-  title={Characterization of fault roughness at various scales: Implications of three-dimensional high resolution topography measurements},
+@article{candela2009characterization,
+  title={Characterization of Fault Roughness at Various Scales: Implications of Three-Dimensional High Resolution Topography Measurements},
   author={Candela, Thibault and Renard, Fran{\c{c}}ois and Bouchon, Michel and Brouste, Alexandre and Marsan, David and Schmittbuhl, Jean and Voisin, Christophe},
-  journal={Mechanics, Structure and Evolution of Fault Zones},
+  journal={Pure and Applied Geophysics},
+  volume={166},
+  number={10-11},
   pages={1817--1851},
-  year={2010},
+  year={2009},
   publisher={Springer}
 }
 
@@ -275,6 +288,17 @@ OPTannote = {•}
   pages={621IN5--634IN6},
   year={1987},
   publisher={Elsevier}
+}
+
+@article{chester1993internal,
+  title={Internal structure and weakening mechanisms of the San Andreas fault},
+  author={Chester, Frederick M and Evans, James P and Biegel, Ronald L},
+  journal={Journal of Geophysical Research: Solid Earth},
+  volume={98},
+  number={B1},
+  pages={771--786},
+  year={1993},
+  publisher={Wiley Online Library}
 }
 
 @article{chester1997stress,
@@ -366,6 +390,17 @@ OPTannote = {•}
   pages={1515--1522},
   year={1974},
   publisher={Geological Society of America}
+}
+
+@article{evans1990thickness,
+  title={Thickness-displacement relationships for fault zones},
+  author={Evans, James P},
+  journal={Journal of structural geology},
+  volume={12},
+  number={8},
+  pages={1061--1065},
+  year={1990},
+  publisher={Elsevier}
 }
 
 @article{davidesko2014evolution,
@@ -493,6 +528,28 @@ OPTannote = {•}
   year={2009},
   publisher={Seismological Society of America}
 }
+
+@article{holdsworth2001structure,
+  title={The structure and rheological evolution of reactivated continental fault zones: a review and case study},
+  author={Holdsworth, RE and Stewart, M and Imber, J and Strachan, RA},
+  journal={Geological Society, London, Special Publications},
+  volume={184},
+  number={1},
+  pages={115--137},
+  year={2001},
+  publisher={Geological Society of London}
+}
+
+@article{hubbert1959role,
+  title={Role of fluid pressure in mechanics of overthrust faulting I. Mechanics of fluid-filled porous solids and its application to overthrust faulting},
+  author={Hubbert, M King and Rubey, William W},
+  journal={Geological Society of America Bulletin},
+  volume={70},
+  number={2},
+  pages={115--166},
+  year={1959},
+  publisher={Geological Society of America}
+}
   
 @article{jackson2006multi,
   title={A multi-scale model for contact between rough surfaces},
@@ -514,6 +571,14 @@ OPTannote = {•}
   pages={465--482},
   year={2009},
   publisher={Geological Society of America}
+}
+
+@book{kelley1960fracture,
+  title={Fracture systems and tectonic elements of the Colorado Plateau},
+  author={Kelley, Vincent Cooper and Clinton, N James},
+  number={6-7},
+  year={1960},
+  publisher={University of New Mexico Press}
 }
 
 @article{kilsdonk1989analytical,
@@ -653,6 +718,17 @@ OPTannote = {•}
   publisher={Elsevier}
 }
 
+@article{marone1994scaling,
+  title={Scaling of rock friction constitutive parameters: The effects of surface roughness and cumulative offset on friction of gabbro},
+  author={Marone, Chris and Cox, SJD},
+  journal={pure and applied geophysics},
+  volume={143},
+  number={1},
+  pages={359--385},
+  year={1994},
+  publisher={Springer}
+}
+
 @article{mcbeck2016growth,
   title={Growth by Optimization of Work (GROW): A new modeling tool that predicts fault growth through work minimization},
   author={McBeck, Jessica A and Madden, Elizabeth H and Cooke, Michele L},
@@ -705,6 +781,13 @@ OPTannote = {•}
   publisher={Wiley Online Library}
 }
 
+@phdthesis{myers1999structure,
+  title={Structure and hydraulics of brittle faults in sandstone},
+  author={Myers, Rodrick Dane},
+  year={1999},
+  school={Stanford University}
+}
+
 @article{okada1992internal,
   title={Internal deformation due to shear and tensile faults in a half-space},
   author={Okada, Yoshimitsu},
@@ -724,6 +807,16 @@ OPTannote = {•}
   number={B7},
   pages={5817--5827},
   year={1984},
+  publisher={Wiley Online Library}
+}
+
+@article{otsuki2003fluidization,
+  title={Fluidization and melting of fault gouge during seismic slip: Identification in the Nojima fault zone and implications for focal earthquake mechanisms},
+  author={Otsuki, Kenshiro and Monzawa, Nobuaki and Nagase, Toshiro},
+  journal={Journal of Geophysical Research: Solid Earth},
+  volume={108},
+  number={B4},
+  year={2003},
   publisher={Wiley Online Library}
 }
 
@@ -1075,6 +1168,17 @@ OPTannote = {•}
   pages={69--84},
   year={1994},
   publisher={Geological Society of London}
+}
+
+@article{sibson2003thickness,
+  title={Thickness of the seismic slip zone},
+  author={Sibson, Richard H},
+  journal={Bulletin of the Seismological Society of America},
+  volume={93},
+  number={3},
+  pages={1169--1178},
+  year={2003},
+  publisher={Seismological Society of America}
 }
 
 @article{stirling1996fault,

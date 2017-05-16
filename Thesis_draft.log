@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.29)  7 MAY 2017 13:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.29)  15 MAY 2017 15:14
 entering extended mode
 **./Thesis_draft.tex
 (Thesis_draft.tex
@@ -526,6 +526,9 @@ Package: cite 2015/02/27  v 5.5
 
 LaTeX Warning: Label `DBC' multiply defined.
 
+
+LaTeX Warning: Label `PSS' multiply defined.
+
 )
 \openout1 = `Thesis_draft.aux'.
 
@@ -633,11 +636,32 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 35.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{C:/Users/kelian_dc/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3]
+{C:/Users/kelian_dc/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+
+LaTeX Warning: Citation `hubbert1959role' on page 3 undefined on input line 48.
 
 
-LaTeX Warning: Citation `meade2007algorythms' on page 4 undefined on input line
- 53.
+
+LaTeX Warning: Citation `holsworth2001structure' on page 3 undefined on input l
+ine 48.
+
+
+LaTeX Warning: Citation `sibson2003thick' on page 3 undefined on input line 51.
+
+
+
+LaTeX Warning: Citation `andela2012roughness' on page 3 undefined on input line
+ 51.
+
+[3]
+! Undefined control sequence.
+l.53 ...nplanar}. In numerical simulations, \citet
+                                                  {zielke2017fault} reports ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Citation `okubo1984nonplanar' on page 4 undefined on input line 
@@ -648,15 +672,14 @@ LaTeX Warning: Citation `okubo1984nonplanar' on page 4 undefined on input line
 LaTeX Warning: Citation `sagy2007geometric' on page 8 undefined on input line 1
 03.
 
-[8] [9]
+[8]
 
-LaTeX Warning: Citation `greenwood1966' on page 10 undefined on input line 107.
+LaTeX Warning: Citation `greenwood1966' on page 9 undefined on input line 107.
 
 
+LaTeX Warning: Citation `XXX' on page 9 undefined on input line 107.
 
-LaTeX Warning: Citation `XXX' on page 10 undefined on input line 107.
-
-[10] [11]
+[9] [10] [11]
 
 LaTeX Warning: Citation `rathburn2013Numerical' on page 12 undefined on input l
 ine 143.
@@ -665,148 +688,195 @@ ine 143.
 LaTeX Warning: Citation `dieterich1996imaging' on page 12 undefined on input li
 ne 145.
 
-[12] [13] [14]
+[12] [13] [14] [15]
 
-LaTeX Warning: Reference `field_observations_and_microstructure' on page 15 und
-efined on input line 178.
+LaTeX Warning: Citation `fault_nucleation_b' on page 16 undefined on input line
+ 181.
 
+[16]
 
-LaTeX Warning: Reference `geometric_analysis' on page 15 undefined on input lin
-e 179.
-
-
-LaTeX Warning: Reference `model' on page 15 undefined on input line 180.
-
-[15]
-
-LaTeX Warning: Reference `Discussion' on page 16 undefined on input line 183.
+LaTeX Warning: Reference `lithology' on page 17 undefined on input line 191.
 
 
-Overfull \hbox (5.37758pt too wide) in paragraph at lines 189--190
+Overfull \hbox (5.37758pt too wide) in paragraph at lines 193--194
 []\OT1/cmr/m/n/12 Advantages of the-ses field lo-ca-tions are man-i-fold. First
 , the nearly pure quartzite
  []
 
-[16] [17] [18] [19]
-Overfull \hbox (35.83806pt too wide) in paragraph at lines 225--226
+[17] [18] [19] [20]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 210.
+
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 220.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <12> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 220.
+ [21]
+Overfull \hbox (35.83806pt too wide) in paragraph at lines 260--261
  [][] 
  []
 
-[20
+[22
+
+
+
+
 
 
 ]
 Overfull \vbox (186.48326pt too high) has occurred while \output is active []
 
 
-[21] [22] [23
+[23] [24]
+
+LaTeX Warning: Reference `field_observations_and_microstructure' on page 25 und
+efined on input line 278.
 
 
-] <Grain_size_distribution.jpg, id=89, 433.62pt x 325.215pt>
+LaTeX Warning: Reference `geometric_analysis' on page 25 undefined on input lin
+e 279.
+
+
+LaTeX Warning: Reference `model' on page 25 undefined on input line 280.
+
+
+LaTeX Warning: Reference `Discussion' on page 25 undefined on input line 283.
+
+[25
+
+
+] [26] <Grain_size_distribution.jpg, id=99, 433.62pt x 325.215pt>
 File: Grain_size_distribution.jpg Graphic file (type jpg)
 
 <use Grain_size_distribution.jpg>
-Package pdftex.def Info: Grain_size_distribution.jpg used on input line 244.
+Package pdftex.def Info: Grain_size_distribution.jpg used on input line 306.
 (pdftex.def)             Requested size: 418.25368pt x 313.70645pt.
 
-<Defomation_Bands.jpg, id=90, 1070.42194pt x 802.81645pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Defomation_Bands.jpg, id=100, 1070.42194pt x 802.81645pt>
 File: Defomation_Bands.jpg Graphic file (type jpg)
 
 <use Defomation_Bands.jpg>
-Package pdftex.def Info: Defomation_Bands.jpg used on input line 254.
+Package pdftex.def Info: Defomation_Bands.jpg used on input line 316.
 (pdftex.def)             Requested size: 418.25368pt x 313.68515pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[24 <./Grain_size_distribution.jpg>] [25 <./Defomation_Bands.jpg>]
-<DBC_edge.jpg, id=98, 1070.42194pt x 802.81645pt>
+[27] [28 <./Grain_size_distribution.jpg>] [29 <./Defomation_Bands.jpg>]
+<DBC_edge.jpg, id=110, 1070.42194pt x 802.81645pt>
 File: DBC_edge.jpg Graphic file (type jpg)
  <use DBC_edge.jpg>
-Package pdftex.def Info: DBC_edge.jpg used on input line 271.
+Package pdftex.def Info: DBC_edge.jpg used on input line 334.
 (pdftex.def)             Requested size: 167.2989pt x 125.46425pt.
 
-<DBC_X.jpg, id=99, 1070.42194pt x 802.81645pt>
+<DBC_X.jpg, id=111, 1070.42194pt x 802.81645pt>
 File: DBC_X.jpg Graphic file (type jpg)
  <use DBC_X.jpg>
-Package pdftex.def Info: DBC_X.jpg used on input line 275.
+Package pdftex.def Info: DBC_X.jpg used on input line 338.
 (pdftex.def)             Requested size: 167.2989pt x 125.46425pt.
- [26 <./DBC_edge.jpg> <./DBC_X.jpg>]
-<Fault_architecture_zoom.jpg, id=103, 1070.42194pt x 802.81645pt>
+ [30 <./DBC_edge.jpg> <./DBC_X.jpg>]
+<Fault_architecture_zoom.jpg, id=115, 1070.42194pt x 802.81645pt>
 File: Fault_architecture_zoom.jpg Graphic file (type jpg)
 
 <use Fault_architecture_zoom.jpg>
-Package pdftex.def Info: Fault_architecture_zoom.jpg used on input line 288.
+Package pdftex.def Info: Fault_architecture_zoom.jpg used on input line 353.
 (pdftex.def)             Requested size: 418.25368pt x 313.68515pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[27] [28] [29] <two_slip_surfaces.jpg, id=113, 1070.42194pt x 802.81645pt>
+[31] [32] <microstructural_wear.jpg, id=123, 433.62pt x 325.215pt>
+File: microstructural_wear.jpg Graphic file (type jpg)
+
+<use microstructural_wear.jpg>
+Package pdftex.def Info: microstructural_wear.jpg used on input line 377.
+(pdftex.def)             Requested size: 418.25368pt x 313.70645pt.
+ <PSS.jpg, id=124, 1070.42194pt x 802.81645pt>
+File: PSS.jpg Graphic file (type jpg)
+
+<use PSS.jpg>
+Package pdftex.def Info: PSS.jpg used on input line 384.
+(pdftex.def)             Requested size: 418.25368pt x 313.68515pt.
+ [33] <two_slip_surfaces.jpg, id=128, 1070.42194pt x 802.81645pt>
 File: two_slip_surfaces.jpg Graphic file (type jpg)
 
 <use two_slip_surfaces.jpg>
-Package pdftex.def Info: two_slip_surfaces.jpg used on input line 311.
+Package pdftex.def Info: two_slip_surfaces.jpg used on input line 401.
 (pdftex.def)             Requested size: 167.2989pt x 125.46425pt.
 
-<Concentric.jpg, id=114, 1070.42194pt x 802.81645pt>
+<Concentric.jpg, id=129, 1070.42194pt x 802.81645pt>
 File: Concentric.jpg Graphic file (type jpg)
  <use Concentric.jpg>
-Package pdftex.def Info: Concentric.jpg used on input line 315.
+Package pdftex.def Info: Concentric.jpg used on input line 405.
 (pdftex.def)             Requested size: 167.2989pt x 125.46425pt.
-
-<PSS.jpg, id=115, 1070.42194pt x 802.81645pt>
 File: PSS.jpg Graphic file (type jpg)
- <use PSS.jpg>
-Package pdftex.def Info: PSS.jpg used on input line 323.
-(pdftex.def)             Requested size: 418.25368pt x 313.68515pt.
- [30]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 337.
 
+<use PSS.jpg>
+Package pdftex.def Info: PSS.jpg used on input line 413.
+(pdftex.def)             Requested size: 418.25368pt x 313.68515pt.
+
+Overfull \hbox (1.4128pt too wide) in paragraph at lines 421--422
+[]\OT1/cmr/m/n/12 Certain slip sur-faces do ac-com-mo-date the over-whelm-ing m
+a-jor-ity of fault offset--
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 425.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 337.
- [31]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 425.
+ [34] [35]
 
-LaTeX Warning: Reference `fig:DavatzesFR' on page 32 undefined on input line 37
-9.
+LaTeX Warning: Reference `fig:DavatzesFR' on page 36 undefined on input line 47
+7.
 
-[32]
-Overfull \hbox (0.5059pt too wide) in paragraph at lines 391--391
+[36]
+Overfull \hbox (0.5059pt too wide) in paragraph at lines 489--489
 []\OT1/cmr/bx/n/14.4 Interpretation of field ob-ser-va-tions and rough-ness mea
 -
  []
 
-[33] [34] [35] [36] [37] [38] [39] [40]
-Overfull \hbox (3.61926pt too wide) in paragraph at lines 508--509
-[]\OT1/cmr/m/n/12 Fault sur-faces are anisotropic. The di-rec-tion of slip is p
-re-served in the anisotropy
- []
+[37] [38] [39] [40] [41] <big_hole_cliff.jpg, id=156, 433.62pt x 325.215pt>
+File: big_hole_cliff.jpg Graphic file (type jpg)
 
-[41] [42] [43] [44] [45] [46] [47] [48]
-Overfull \hbox (7.02658pt too wide) in paragraph at lines 613--614
+<use big_hole_cliff.jpg>
+Package pdftex.def Info: big_hole_cliff.jpg used on input line 545.
+(pdftex.def)             Requested size: 418.25368pt x 313.70645pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52]
+Overfull \hbox (7.02658pt too wide) in paragraph at lines 715--716
 []\OT1/cmr/m/n/12 power spec-trum shows that fault slip sur-faces are sys-tem-a
 t-i-cally smoother
  []
 
-[49] [50] [51] [52] [53] [54] (Thesis_draft.bbl [55] [56] [57] [58] [59]
-[60] [61] [62] [63] [64] [65] [66]) [67] [68] [69]
-Overfull \hbox (2.10414pt too wide) in paragraph at lines 756--757
+[53] [54] [55] [56] [57] [58] [59] (Thesis_draft.bbl [60] [61] [62] [63]
+[64] [65] [66] [67] [68] [69] [70] [71] [72] [73]) [74] [75] [76]
+Overfull \hbox (2.10414pt too wide) in paragraph at lines 858--859
 []\OT1/cmr/m/it/12 'PLOMB'\OT1/cmr/m/n/12 : pe-ri-odogram plot as de-ter-mined 
 by the Lomb-Scargle least squares
  []
 
-[70]
-Overfull \hbox (5.71063pt too wide) in paragraph at lines 778--779
+[77]
+Overfull \hbox (5.71063pt too wide) in paragraph at lines 880--881
 []\OT1/cmr/m/it/12 fractal_model_outlier\OT1/cmr/m/n/12 : Re-moves out-ly-ing s
 eg-ments ac-cord-ing to a near-gaussian
  []
 
-[71] [72] [73 <./Fault_architecture_zoom.jpg>] [74 <./two_slip_surfaces.jpg> <.
-/Concentric.jpg> <./PSS.jpg>] (Thesis_draft.aux)
+[78] [79] [80 <./Fault_architecture_zoom.jpg>] [81 <./microstructural_wear.jpg>
+] [82 <./PSS.jpg> <./two_slip_surfaces.jpg> <./Concentric.jpg>] [83] [84 <./big
+_hole_cliff.jpg>] (Thesis_draft.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -815,15 +885,16 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5430 strings out of 493634
- 79702 string characters out of 3141302
- 147778 words of memory out of 3000000
- 8691 multiletter control sequences out of 15000+200000
- 15996 words of font info for 66 fonts, out of 3000000 for 9000
+ 5485 strings out of 493634
+ 80801 string characters out of 3141302
+ 151879 words of memory out of 3000000
+ 8740 multiletter control sequences out of 15000+200000
+ 16355 words of font info for 67 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 36i,8n,39p,2821b,449s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,15n,39p,2821b,437s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/
 Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pr
 ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Prog
@@ -838,9 +909,9 @@ X 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9
 /fonts/type1/public/esint/esint10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
 type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Thesis_draft.pdf (74 pages, 42601579 bytes).
+Output written on Thesis_draft.pdf (84 pages, 43039268 bytes).
 PDF statistics:
- 313 PDF objects out of 1000 (max. 8388607)
+ 350 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
