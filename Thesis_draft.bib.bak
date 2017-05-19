@@ -939,6 +939,17 @@ OPTannote = {•}
   publisher={Elsevier}
 }
 
+@article{rathbun2013numerical,
+  title={Numerical investigation of the interplay between wall geometry and friction in granular fault gouge},
+  author={Rathbun, Andrew P and Renard, Francois and Abe, Steffen},
+  journal={Journal of Geophysical Research: Solid Earth},
+  volume={118},
+  number={3},
+  pages={878--896},
+  year={2013},
+  publisher={Wiley Online Library}
+}
+
 @inproceedings{robertson1982continuous,
   title={Continuous formation of gouge and breccia during fault displacement},
   author={Robertson, Eugene C and others},

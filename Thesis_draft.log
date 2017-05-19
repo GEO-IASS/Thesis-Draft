@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.29)  15 MAY 2017 15:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.29)  18 MAY 2017 18:51
 entering extended mode
 **./Thesis_draft.tex
 (Thesis_draft.tex
@@ -522,10 +522,16 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
-) (Thesis_draft.aux
-
-LaTeX Warning: Label `DBC' multiply defined.
-
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\rotating\rotating.sty"
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+\c@r@tfl@t=\count119
+\rotFPtop=\skip49
+\rotFPbot=\skip50
+\rot@float@box=\box36
+\rot@mess@toks=\toks30
+)
+(Thesis_draft.aux
 
 LaTeX Warning: Label `PSS' multiply defined.
 
@@ -581,19 +587,20 @@ LaTeX Font Info:    ... okay on input line 33.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count119
+\scratchcounter=\count120
 \scratchdimen=\dimen147
-\scratchbox=\box36
-\nofMPsegments=\count120
-\nofMParguments=\count121
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count122
+\scratchbox=\box37
+\nofMPsegments=\count121
+\nofMParguments=\count122
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count123
 \MPscratchDim=\dimen148
-\MPnumerator=\count123
-\makeMPintoPDFobject=\count124
-\everyMPtoPDFconversion=\toks31
+\MPnumerator=\count124
+\makeMPintoPDFobject=\count125
+\everyMPtoPDFconversion=\toks32
 )
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: rotating package is loaded.
 Package caption Info: sidecap package is loaded.
 Package caption Info: End \AtBeginDocument code.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ms\ragged2e.sty"
@@ -605,20 +612,20 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 126.
 )
-\CenteringLeftskip=\skip49
-\RaggedLeftLeftskip=\skip50
-\RaggedRightLeftskip=\skip51
-\CenteringRightskip=\skip52
-\RaggedLeftRightskip=\skip53
-\RaggedRightRightskip=\skip54
-\CenteringParfillskip=\skip55
-\RaggedLeftParfillskip=\skip56
-\RaggedRightParfillskip=\skip57
-\JustifyingParfillskip=\skip58
-\CenteringParindent=\skip59
-\RaggedLeftParindent=\skip60
-\RaggedRightParindent=\skip61
-\JustifyingParindent=\skip62
+\CenteringLeftskip=\skip51
+\RaggedLeftLeftskip=\skip52
+\RaggedRightLeftskip=\skip53
+\CenteringRightskip=\skip54
+\RaggedLeftRightskip=\skip55
+\RaggedRightRightskip=\skip56
+\CenteringParfillskip=\skip57
+\RaggedLeftParfillskip=\skip58
+\RaggedRightParfillskip=\skip59
+\JustifyingParfillskip=\skip60
+\CenteringParindent=\skip61
+\RaggedLeftParindent=\skip62
+\RaggedRightParindent=\skip63
+\JustifyingParindent=\skip64
 )
 LaTeX Font Info:    Try loading font information for U+esint on input line 35.
 
@@ -634,26 +641,206 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 35.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+! I can't write on file `Thesis_draft.pdf'.
+Please type another file name for output
+! Emergency stop.
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.41 
+     
+*** (job aborted, file error in nonstop mode)
 
-{C:/Users/kelian_dc/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+ 
+Here is how much of TeX's memory you used:
+ 5382 strings out of 493634
+ 78945 string characters out of 3141302
+ 146934 words of memory out of 3000000
+ 8663 multiletter control sequences out of 15000+200000
+ 12494 words of font info for 53 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 36i,6n,38p,2821b,253s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
+ions' on page 3 undefined on input 
+line 48.
 
-LaTeX Warning: Citation `hubbert1959role' on page 3 undefined on input line 48.
+
+LaTeX Warning: Citation `chester1987composite' on page 3 undefined on input lin
+e 48.
+
+
+LaTeX Warning: Citation `mandelbrot1984fractal' on page 3 undefined on input li
+ne 48.
+
+
+LaTeX Warning: Citation `mandelbrot1985self' on page 3 undefined on input line 
+48.
+
+
+LaTeX Warning: Citation `scholz1986fractal' on page 3 undefined on input line 4
+8.
+
+
+LaTeX Warning: Citation `candela2012roughness' on page 3 undefined on input lin
+e 48.
+
+
+LaTeX Warning: Citation `lay1982asperity' on page 3 undefined on input line 48.
 
 
 
-LaTeX Warning: Citation `holsworth2001structure' on page 3 undefined on input l
-ine 48.
+LaTeX Warning: Citation `aki1984asperities' on page 3 undefined on input line 4
+8.
+
+
+LaTeX Warning: Citation `scholz1986fractal' on page 3 undefined on input line 4
+8.
+
+
+LaTeX Warning: Citation `sibson1977fault' on page 3 undefined on input line 51.
+
+
+
+LaTeX Warning: Citation `chester1986implications' on page 3 undefined on input 
+line 51.
+
+
+LaTeX Warning: Citation `caine1996fault' on page 3 undefined on input line 51.
+
+
+LaTeX Warning: Citation `palmer1973growth' on page 3 undefined on input line 51
+.
+
+
+LaTeX Warning: Citation `engelder1974cataclasis' on page 3 undefined on input l
+ine 51.
+
+
+LaTeX Warning: Citation `aydin1978development' on page 3 undefined on input lin
+e 51.
 
 
 LaTeX Warning: Citation `sibson2003thick' on page 3 undefined on input line 51.
 
 
 
+LaTeX Warning: Citation `scholz1986fractal' on page 3 undefined on input line 5
+1.
+
+
+LaTeX Warning: Citation `scholz1986fractal' on page 3 undefined on input line 5
+1.
+
+
+LaTeX Warning: Citation `sagy2009geometric' on page 3 undefined on input line 5
+1.
+
+
+LaTeX Warning: Citation `scholz1986fractal' on page 3 undefined on input line 5
+1.
+
+
+LaTeX Warning: Citation `schmittbuhl1993field' on page 3 undefined on input lin
+e 51.
+
+
 LaTeX Warning: Citation `andela2012roughness' on page 3 undefined on input line
  51.
 
+
+LaTeX Warning: Citation `schmittbuhl1993field' on page 3 undefined on input lin
+e 51.
+
+
+LaTeX Warning: Citation `lee1996structural' on page 3 undefined on input line 5
+1.
+
 [3]
+
+LaTeX Warning: Citation `berger1980first' on page 4 undefined on input line 53.
+
+
+
+LaTeX Warning: Citation `segall1980mechanics' on page 4 undefined on input line
+ 53.
+
+
+LaTeX Warning: Citation `mcclay1987analogue' on page 4 undefined on input line 
+53.
+
+
+LaTeX Warning: Citation `kilsdonk1989analytical' on page 4 undefined on input l
+ine 53.
+
+
+LaTeX Warning: Citation `burgmann1994slip' on page 4 undefined on input line 53
+.
+
+
+LaTeX Warning: Citation `chester1997stress' on page 4 undefined on input line 5
+3.
+
+
+LaTeX Warning: Citation `chester2000stress' on page 4 undefined on input line 5
+3.
+
+
+LaTeX Warning: Citation `saucier1992stress' on page 4 undefined on input line 5
+3.
+
+
+LaTeX Warning: Citation `griffith2010rough' on page 4 undefined on input line 5
+3.
+
+
+LaTeX Warning: Citation `dunham2011earthquake' on page 4 undefined on input lin
+e 53.
+
+
+LaTeX Warning: Citation `ritz2015influence' on page 4 undefined on input line 5
+3.
+
+
+LaTeX Warning: Citation `okada1992internal' on page 4 undefined on input line 5
+3.
+
+
+LaTeX Warning: Citation `meade2007algorithms' on page 4 undefined on input line
+ 53.
+
+
+LaTeX Warning: Citation `shi2013rupture' on page 4 undefined on input line 53.
+
+
+LaTeX Warning: Citation `zielke2016sub' on page 4 undefined on input line 53.
+
+
+LaTeX Warning: Citation `zielke2017fault' on page 4 undefined on input line 53.
+
+
+
+LaTeX Warning: Citation `fang2013additional' on page 4 undefined on input line 
+53.
+
+
+LaTeX Warning: Citation `okubo1984effects' on page 4 undefined on input line 53
+.
+
+
+LaTeX Warning: Citation `chester2000stress' on page 4 undefined on input line 5
+3.
+
+
+LaTeX Warning: Citation `griffith2010rough' on page 4 undefined on input line 5
+3.
+
+
+LaTeX Warning: Citation `zielke2016sub' on page 4 undefined on input line 53.
+
+
+LaTeX Warning: Citation `dieterich2009nonplanar' on page 4 undefined on input l
+ine 53.
+
 ! Undefined control sequence.
 l.53 ...nplanar}. In numerical simulations, \citet
                                                   {zielke2017fault} reports ...
@@ -664,59 +851,828 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
+LaTeX Warning: Citation `biegel19921' on page 4 undefined on input line 53.
+
+
+LaTeX Warning: Citation `marone1994scaling' on page 4 undefined on input line 5
+3.
+
+
 LaTeX Warning: Citation `okubo1984nonplanar' on page 4 undefined on input line 
 53.
 
-[4] [5] [6] [7]
+[4]
+
+LaTeX Warning: Citation `scholz1986fractal' on page 5 undefined on input line 5
+5.
+
+
+LaTeX Warning: Citation `brodsky2016constraints' on page 5 undefined on input l
+ine 55.
+
+
+LaTeX Warning: Citation `candela2011stress' on page 5 undefined on input line 5
+5.
+
+
+LaTeX Warning: Citation `shi2013rupture' on page 5 undefined on input line 55.
+
+
+LaTeX Warning: Citation `moreno2009impact' on page 5 undefined on input line 55
+.
+
+
+LaTeX Warning: Citation `zielke2016sub' on page 5 undefined on input line 55.
+
+
+LaTeX Warning: Citation `candela2012roughness' on page 5 undefined on input lin
+e 57.
+
+
+LaTeX Warning: Citation `brodsky2016constraints' on page 5 undefined on input l
+ine 57.
+
+
+LaTeX Warning: Citation `davidesko2014evolution' on page 5 undefined on input l
+ine 57.
+
+
+LaTeX Warning: Citation `brodsky2011faults' on page 5 undefined on input line 5
+7.
+
+
+LaTeX Warning: Citation `candela2009characterization' on page 5 undefined on in
+put line 57.
+
+
+LaTeX Warning: Citation `brodsky2011faults' on page 5 undefined on input line 5
+7.
+
+
+LaTeX Warning: Citation `candela2012roughness' on page 5 undefined on input lin
+e 57.
+
+
+LaTeX Warning: Citation `badt2016geometrical' on page 5 undefined on input line
+ 57.
+
+
+LaTeX Warning: Citation `shervais2016smoothing' on page 5 undefined on input li
+ne 57.
+
+
+LaTeX Warning: Citation `brodsky2011faults' on page 5 undefined on input line 5
+9.
+
+[5]
+
+LaTeX Warning: Citation `harrington2009smooth' on page 6 undefined on input lin
+e 61.
+
+
+LaTeX Warning: Citation `stirling1996fault' on page 6 undefined on input line 6
+1.
+
+
+LaTeX Warning: Citation `chester2000stress' on page 6 undefined on input line 6
+1.
+
+
+LaTeX Warning: Citation `griffith2010rough' on page 6 undefined on input line 6
+1.
+
+
+LaTeX Warning: Citation `ritz2015influence' on page 6 undefined on input line 6
+1.
+
+
+LaTeX Warning: Citation `power1988roughness' on page 6 undefined on input line 
+61.
+
+
+LaTeX Warning: Citation `griffith2010rough' on page 6 undefined on input line 6
+1.
+
+
+LaTeX Warning: Citation `ritz2015influence' on page 6 undefined on input line 6
+1.
+
+[6]
+
+LaTeX Warning: Citation `brown1985broad' on page 7 undefined on input line 65.
+
+
+LaTeX Warning: Citation `mandelbrot1984fractal' on page 7 undefined on input li
+ne 65.
+
+
+LaTeX Warning: Citation `brown1985broad' on page 7 undefined on input line 65.
+
+
+LaTeX Warning: Citation `scholz1986fractal' on page 7 undefined on input line 6
+5.
+
+
+LaTeX Warning: Citation `power1987roughness' on page 7 undefined on input line 
+65.
+
+
+LaTeX Warning: Citation `power1991euclidean' on page 7 undefined on input line 
+65.
+
+
+LaTeX Warning: Citation `scholz1986fractal' on page 7 undefined on input line 6
+5.
+
+
+LaTeX Warning: Citation `power1987roughness' on page 7 undefined on input line 
+65.
+
+
+LaTeX Warning: Citation `aviles1987fractal' on page 7 undefined on input line 6
+5.
+
+
+LaTeX Warning: Citation `mandelbrot1984fractal' on page 7 undefined on input li
+ne 65.
+
+
+LaTeX Warning: Citation `mandelbrot1985self' on page 7 undefined on input line 
+65.
+
+
+LaTeX Warning: Citation `schmittbuhl1993field' on page 7 undefined on input lin
+e 85.
+
+
+LaTeX Warning: Citation `mandelbrot1985self' on page 7 undefined on input line 
+87.
+
+
+LaTeX Warning: Citation `schmittbuhl1995reliability' on page 7 undefined on inp
+ut line 87.
+
+
+LaTeX Warning: Citation `candela2009characterization' on page 7 undefined on in
+put line 87.
+
+[7]
+
+LaTeX Warning: Citation `schmittbuhl1995reliability' on page 8 undefined on inp
+ut line 93.
+
+
+LaTeX Warning: Citation `schmittbuhl1995reliability' on page 8 undefined on inp
+ut line 94.
+
+
+LaTeX Warning: Citation `candela2009characterization' on page 8 undefined on in
+put line 94.
+
+
+LaTeX Warning: Citation `mandelbrot1985self' on page 8 undefined on input line 
+101.
+
+
+LaTeX Warning: Citation `power1991euclidean' on page 8 undefined on input line 
+101.
+
+
+LaTeX Warning: Citation `schmittbuhl1993field' on page 8 undefined on input lin
+e 101.
+
+
+LaTeX Warning: Citation `candela2012roughness' on page 8 undefined on input lin
+e 101.
+
+
+LaTeX Warning: Citation `mandelbrot1985self' on page 8 undefined on input line 
+103.
+
+
+LaTeX Warning: Citation `lee1996structural' on page 8 undefined on input line 1
+03.
+
+
+LaTeX Warning: Citation `kokkalas2007quantitative' on page 8 undefined on input
+ line 103.
+
+
+LaTeX Warning: Citation `renard2006high' on page 8 undefined on input line 103.
+
+
+
+LaTeX Warning: Citation `sagy2007evolution' on page 8 undefined on input line 1
+03.
+
+
+LaTeX Warning: Citation `sagy2009geometric' on page 8 undefined on input line 1
+03.
+
+
+LaTeX Warning: Citation `jones2009quantitative' on page 8 undefined on input li
+ne 103.
+
+
+LaTeX Warning: Citation `bistacchi2011fault' on page 8 undefined on input line 
+103.
+
+
+LaTeX Warning: Citation `brodsky2011faults' on page 8 undefined on input line 1
+03.
+
+
+LaTeX Warning: Citation `candela2012roughness' on page 8 undefined on input lin
+e 103.
+
+
+LaTeX Warning: Citation `schmittbuhl1993field' on page 8 undefined on input lin
+e 103.
+
+
+LaTeX Warning: Citation `lee1996structural' on page 8 undefined on input line 1
+03.
+
+
+LaTeX Warning: Citation `sagy2009geometric' on page 8 undefined on input line 1
+03.
+
+
+LaTeX Warning: Citation `candela2012roughness' on page 8 undefined on input lin
+e 103.
+
+
+LaTeX Warning: Citation `brodsky2016scale' on page 8 undefined on input line 10
+3.
+
+
+LaTeX Warning: Citation `schmittbuhl1995scaling' on page 8 undefined on input l
+ine 103.
+
+
+LaTeX Warning: Citation `bouchaud1997scaling' on page 8 undefined on input line
+ 103.
+
+
+LaTeX Warning: Citation `lee1996structural' on page 8 undefined on input line 1
+03.
+
+
+LaTeX Warning: Citation `sagy2007evolution' on page 8 undefined on input line 1
+03.
+
+
+LaTeX Warning: Citation `bistacchi2011fault' on page 8 undefined on input line 
+103.
+
+
+LaTeX Warning: Citation `candela2012roughness' on page 8 undefined on input lin
+e 103.
+
+
+LaTeX Warning: Citation `lee1996structural' on page 8 undefined on input line 1
+03.
+
 
 LaTeX Warning: Citation `sagy2007geometric' on page 8 undefined on input line 1
 03.
 
+
+LaTeX Warning: Citation `candela2012roughness' on page 8 undefined on input lin
+e 103.
+
+
+LaTeX Warning: Citation `candela2012roughness' on page 8 undefined on input lin
+e 103.
+
+
+LaTeX Warning: Citation `brodsky2011faults' on page 8 undefined on input line 1
+03.
+
+
+LaTeX Warning: Citation `candela2016minimum' on page 8 undefined on input line 
+103.
+
+
+LaTeX Warning: Citation `brodsky2016constraints' on page 8 undefined on input l
+ine 103.
+
 [8]
+! Undefined control sequence.
+l.105 ... dependent strength as proposed by \citet
+                                                  {brodsky2016scale}. Using ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-LaTeX Warning: Citation `greenwood1966' on page 9 undefined on input line 107.
+[9]
+
+LaTeX Warning: Citation `greenwood1966' on page 10 undefined on input line 107.
 
 
-LaTeX Warning: Citation `XXX' on page 9 undefined on input line 107.
 
-[9] [10] [11]
+LaTeX Warning: Citation `XXX' on page 10 undefined on input line 107.
+
+
+LaTeX Warning: Citation `archard1953contact' on page 10 undefined on input line
+ 107.
+
+
+LaTeX Warning: Citation `power1988roughness' on page 10 undefined on input line
+ 119.
+
+
+LaTeX Warning: Citation `sagy2007evolution' on page 10 undefined on input line 
+119.
+
+
+LaTeX Warning: Citation `brodsky2011faults' on page 10 undefined on input line 
+119.
+
+[10]
+
+LaTeX Warning: Citation `sagy2009geometric' on page 11 undefined on input line 
+135.
+
+
+LaTeX Warning: Citation `shervais2016smoothing' on page 11 undefined on input l
+ine 135.
+
+
+LaTeX Warning: Citation `chambon2006thickness' on page 11 undefined on input li
+ne 135.
+
+[11]
+
+LaTeX Warning: Citation `power1988roughness' on page 12 undefined on input line
+ 137.
+
+
+LaTeX Warning: Citation `scholz1987wear' on page 12 undefined on input line 137
+.
+
+
+LaTeX Warning: Citation `shervais2016smoothing' on page 12 undefined on input l
+ine 137.
+
+
+LaTeX Warning: Citation `scholz1976role' on page 12 undefined on input line 137
+.
+
+
+LaTeX Warning: Citation `swanson1989sidewall' on page 12 undefined on input lin
+e 137.
+
+
+LaTeX Warning: Citation `meng1995wear' on page 12 undefined on input line 141.
+
+
+LaTeX Warning: Citation `power1988roughness' on page 12 undefined on input line
+ 141.
+
+
+LaTeX Warning: Citation `scholz1987wear' on page 12 undefined on input line 141
+.
+
+
+LaTeX Warning: Citation `wang1994wear' on page 12 undefined on input line 141.
+
 
 LaTeX Warning: Citation `rathburn2013Numerical' on page 12 undefined on input l
-ine 143.
+ine 141.
+
+! Undefined control sequence.
+l.141 ...iction of wear volume presented in \citet
+                                                  {brodsky2011faults}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `archard1953contact' on page 12 undefined on input line
+ 143.
+
+
+LaTeX Warning: Citation `greenwood1966contact' on page 12 undefined on input li
+ne 143.
+
+
+LaTeX Warning: Citation `bowden2001friction' on page 12 undefined on input line
+ 143.
 
 
 LaTeX Warning: Citation `dieterich1996imaging' on page 12 undefined on input li
-ne 145.
+ne 143.
 
-[12] [13] [14] [15]
+[12]
+
+LaTeX Warning: Citation `archard1953contact' on page 13 undefined on input line
+ 149.
+
+
+LaTeX Warning: Citation `yoshioka1986fracture' on page 13 undefined on input li
+ne 151.
+
+
+LaTeX Warning: Citation `robertson1982continuous' on page 13 undefined on input
+ line 151.
+
+
+LaTeX Warning: Citation `shipton2006thick' on page 13 undefined on input line 1
+51.
+
+
+LaTeX Warning: Citation `scholz1987wear' on page 13 undefined on input line 151
+.
+
+! Undefined control sequence.
+l.151 ...s to natural faults. Specifically, \citet
+                                                  {scholz1987wear} raises co...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[13]
+
+LaTeX Warning: Citation `queener1965transient' on page 14 undefined on input li
+ne 153.
+
+
+LaTeX Warning: Citation `levy1988unlubricated' on page 14 undefined on input li
+ne 153.
+
+
+LaTeX Warning: Citation `power1988roughness' on page 14 undefined on input line
+ 153.
+
+
+LaTeX Warning: Citation `wang1994wear' on page 14 undefined on input line 153.
+
+
+LaTeX Warning: Citation `scholz1987wear' on page 14 undefined on input line 165
+.
+
+
+LaTeX Warning: Citation `wang1994wear' on page 14 undefined on input line 165.
+
+
+LaTeX Warning: Citation `power1988roughness' on page 14 undefined on input line
+ 165.
+
+
+LaTeX Warning: Citation `blenkinsop1989thickness' on page 14 undefined on input
+ line 165.
+
+
+LaTeX Warning: Citation `evans1990thickness' on page 14 undefined on input line
+ 165.
+
+
+LaTeX Warning: Citation `shipton2006thick' on page 14 undefined on input line 1
+65.
+
+[14]
+
+LaTeX Warning: Citation `aydin1977faulting' on page 15 undefined on input line 
+175.
+
+
+LaTeX Warning: Citation `aydin1978development' on page 15 undefined on input li
+ne 175.
+
+
+LaTeX Warning: Citation `krantz1986orthorhombic' on page 15 undefined on input 
+line 175.
+
+
+LaTeX Warning: Citation `shipton2001damage' on page 15 undefined on input line 
+175.
+
+
+LaTeX Warning: Citation `shipton2002structural' on page 15 undefined on input l
+ine 175.
+
+
+LaTeX Warning: Citation `shipton2003conceptual' on page 15 undefined on input l
+ine 175.
+
+
+LaTeX Warning: Citation `fossen1998deformation' on page 15 undefined on input l
+ine 175.
+
+
+LaTeX Warning: Citation `fossen2005fault' on page 15 undefined on input line 17
+5.
+
+
+LaTeX Warning: Citation `fossen2007deformation' on page 15 undefined on input l
+ine 175.
+
+[15]
+
+LaTeX Warning: Citation `aydin1977faulting' on page 16 undefined on input line 
+177.
+
+
+LaTeX Warning: Citation `davatzes2003overprinting' on page 16 undefined on inpu
+t line 177.
+
+
+LaTeX Warning: Citation `aydin1977faulting' on page 16 undefined on input line 
+177.
+
+
+LaTeX Warning: Citation `aydin1978development' on page 16 undefined on input li
+ne 177.
+
+
+LaTeX Warning: Citation `fossen2007deformation' on page 16 undefined on input l
+ine 177.
+
+
+LaTeX Warning: Citation `fossen2007deformation' on page 16 undefined on input l
+ine 177.
+
+
+LaTeX Warning: Citation `fossen2007deformation' on page 16 undefined on input l
+ine 177.
+
+
+LaTeX Warning: Citation `aydin1977faulting' on page 16 undefined on input line 
+177.
+
+
+LaTeX Warning: Citation `myers1999structure' on page 16 undefined on input line
+ 179.
+
+
+LaTeX Warning: Citation `davatzes2003overprinting' on page 16 undefined on inpu
+t line 179.
+
 
 LaTeX Warning: Citation `fault_nucleation_b' on page 16 undefined on input line
- 181.
+ 179.
+
+
+LaTeX Warning: Citation `davatzes2003overprinting' on page 16 undefined on inpu
+t line 181.
+
+
+LaTeX Warning: Citation `aydin1977faulting' on page 16 undefined on input line 
+183.
+
+
+LaTeX Warning: Citation `aydin1978development' on page 16 undefined on input li
+ne 183.
+
+
+LaTeX Warning: Citation `shipton2001damage' on page 16 undefined on input line 
+183.
+
+
+LaTeX Warning: Citation `shipton2003conceptual' on page 16 undefined on input l
+ine 183.
+
+
+LaTeX Warning: Citation `davatzes2005distribution' on page 16 undefined on inpu
+t line 183.
+
+
+LaTeX Warning: Citation `aydin1977faulting' on page 16 undefined on input line 
+183.
+
+
+LaTeX Warning: Citation `aydin1978development' on page 16 undefined on input li
+ne 183.
+
+
+LaTeX Warning: Citation `shipton2001damage' on page 16 undefined on input line 
+183.
+
+
+LaTeX Warning: Citation `shipton2003conceptual' on page 16 undefined on input l
+ine 183.
+
+
+LaTeX Warning: Citation `shipton2001damage' on page 16 undefined on input line 
+183.
+
+
+LaTeX Warning: Citation `shipton2006thick' on page 16 undefined on input line 1
+83.
 
 [16]
 
-LaTeX Warning: Reference `lithology' on page 17 undefined on input line 191.
+LaTeX Warning: Citation `kelley1960fracture' on page 17 undefined on input line
+ 189.
 
 
-Overfull \hbox (5.37758pt too wide) in paragraph at lines 193--194
+LaTeX Warning: Citation `vrolijk2005anatomy' on page 17 undefined on input line
+ 189.
+
+
+LaTeX Warning: Citation `kelley1960fracture' on page 17 undefined on input line
+ 189.
+
+
+LaTeX Warning: Citation `kelley1960fracture' on page 17 undefined on input line
+ 189.
+
+
+LaTeX Warning: Citation `aydin1977faulting' on page 17 undefined on input line 
+189.
+
+
+LaTeX Warning: Citation `krantz1986orthorhombic' on page 17 undefined on input 
+line 189.
+
+
+LaTeX Warning: Citation `maerten2001digital' on page 17 undefined on input line
+ 189.
+
+
+LaTeX Warning: Citation `davatzes2003overprinting' on page 17 undefined on inpu
+t line 189.
+
+
+LaTeX Warning: Citation `shipton2001damage' on page 17 undefined on input line 
+189.
+
+
+LaTeX Warning: Citation `shipton2003conceptual' on page 17 undefined on input l
+ine 189.
+
+
+LaTeX Warning: Citation `aydin1977faulting' on page 17 undefined on input line 
+189.
+
+
+LaTeX Warning: Citation `aydin1978development' on page 17 undefined on input li
+ne 189.
+
+
+LaTeX Warning: Citation `aydin1977faulting' on page 17 undefined on input line 
+189.
+
+
+LaTeX Warning: Citation `aydin1978development' on page 17 undefined on input li
+ne 189.
+
+
+LaTeX Warning: Citation `fossen1998deformation' on page 17 undefined on input l
+ine 189.
+
+
+LaTeX Warning: Citation `fossen2005fault' on page 17 undefined on input line 18
+9.
+
+
+LaTeX Warning: Reference `lithology' on page 17 undefined on input line 189.
+
+[17]
+
+LaTeX Warning: Citation `vrolijk2005anatomy' on page 18 undefined on input line
+ 191.
+
+
+LaTeX Warning: Citation `sagy2007evolution' on page 18 undefined on input line 
+191.
+
+
+LaTeX Warning: Citation `brodsky2011faults' on page 18 undefined on input line 
+191.
+
+
+Overfull \hbox (5.37758pt too wide) in paragraph at lines 191--192
 []\OT1/cmr/m/n/12 Advantages of the-ses field lo-ca-tions are man-i-fold. First
 , the nearly pure quartzite
  []
 
-[17] [18] [19] [20]
+
+LaTeX Warning: Citation `krantz1986orthorhombic' on page 18 undefined on input 
+line 193.
+
+
+LaTeX Warning: Citation `davatzes2003overprinting' on page 18 undefined on inpu
+t line 193.
+
+
+LaTeX Warning: Citation `vrolijk2005anatomy' on page 18 undefined on input line
+ 193.
+
+
+LaTeX Warning: Citation `shipton2001damage' on page 18 undefined on input line 
+193.
+
+
+LaTeX Warning: Citation `shipton2003conceptual' on page 18 undefined on input l
+ine 193.
+
+
+LaTeX Warning: Citation `shipton2002structural' on page 18 undefined on input l
+ine 193.
+
+
+LaTeX Warning: Citation `krantz1986orthorhombic' on page 18 undefined on input 
+line 193.
+
+
+LaTeX Warning: Citation `krantz1986orthorhombic' on page 18 undefined on input 
+line 193.
+
+
+LaTeX Warning: Citation `maerten2001digital' on page 18 undefined on input line
+ 193.
+
+
+LaTeX Warning: Citation `davatzes2003overprinting' on page 18 undefined on inpu
+t line 193.
+
+
+LaTeX Warning: Citation `maerten2001digital' on page 18 undefined on input line
+ 193.
+
+
+LaTeX Warning: Citation `cowie1998fault' on page 18 undefined on input line 193
+.
+
+
+LaTeX Warning: Citation `maerten2001digital' on page 18 undefined on input line
+ 193.
+
+
+LaTeX Warning: Citation `shipton2001damage' on page 18 undefined on input line 
+193.
+
+
+LaTeX Warning: Citation `shipton2003conceptual' on page 18 undefined on input l
+ine 193.
+
+
+LaTeX Warning: Citation `shipton2001damage' on page 18 undefined on input line 
+193.
+
+
+LaTeX Warning: Citation `shipton2003conceptual' on page 18 undefined on input l
+ine 193.
+
+[18]
+
+LaTeX Warning: Citation `kelley1960fracture' on page 19 undefined on input line
+ 195.
+
+
+LaTeX Warning: Citation `aydin1978development' on page 19 undefined on input li
+ne 197.
+
+
+LaTeX Warning: Citation `aydin1977faulting' on page 19 undefined on input line 
+197.
+
+
+LaTeX Warning: Citation `fossen2005fault' on page 19 undefined on input line 19
+7.
+
+
+LaTeX Warning: Citation `torabi2009spatial' on page 19 undefined on input line 
+197.
+
+
+LaTeX Warning: Citation `aydin1978development' on page 19 undefined on input li
+ne 197.
+
+
+LaTeX Warning: Citation `schultz2002displacement' on page 19 undefined on input
+ line 197.
+
+[19] [20]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 210.
+               Default added (so using `tbp') on input line 208.
 
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 220.
+
+LaTeX Warning: Citation `aydin1977faulting' on page 21 undefined on input line 
+210.
+
+
+LaTeX Warning: Citation `aydin1977faulting' on page 21 undefined on input line 
+210.
+
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 218.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 220.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 218.
  [21]
-Overfull \hbox (35.83806pt too wide) in paragraph at lines 260--261
+Overfull \hbox (35.83806pt too wide) in paragraph at lines 258--259
  [][] 
  []
 
@@ -734,26 +1690,59 @@ Overfull \vbox (186.48326pt too high) has occurred while \output is active []
 [23] [24]
 
 LaTeX Warning: Reference `field_observations_and_microstructure' on page 25 und
-efined on input line 278.
+efined on input line 276.
 
 
 LaTeX Warning: Reference `geometric_analysis' on page 25 undefined on input lin
-e 279.
+e 277.
 
 
-LaTeX Warning: Reference `model' on page 25 undefined on input line 280.
+LaTeX Warning: Citation `crouch1982boundary' on page 25 undefined on input line
+ 278.
 
 
-LaTeX Warning: Reference `Discussion' on page 25 undefined on input line 283.
+LaTeX Warning: Citation `cooke1997bedding' on page 25 undefined on input line 2
+78.
+
+
+LaTeX Warning: Citation `cooke1997fracture' on page 25 undefined on input line 
+278.
+
+
+LaTeX Warning: Citation `savage2010unlocking' on page 25 undefined on input lin
+e 278.
+
+
+LaTeX Warning: Citation `mcbeck2016growth' on page 25 undefined on input line 2
+78.
+
+
+LaTeX Warning: Reference `model' on page 25 undefined on input line 278.
+
+
+LaTeX Warning: Reference `Discussion' on page 25 undefined on input line 281.
 
 [25
 
 
-] [26] <Grain_size_distribution.jpg, id=99, 433.62pt x 325.215pt>
+]
+
+LaTeX Warning: Citation `power1988roughness' on page 26 undefined on input line
+ 291.
+
+[26]
+
+LaTeX Warning: Reference `deformation_band' on page 27 undefined on input line 
+297.
+
+
+LaTeX Warning: Reference `grain_size' on page 27 undefined on input line 299.
+
+<Grain_size_distribution.jpg, id=99, 433.62pt x 325.215pt>
 File: Grain_size_distribution.jpg Graphic file (type jpg)
 
 <use Grain_size_distribution.jpg>
-Package pdftex.def Info: Grain_size_distribution.jpg used on input line 306.
+Package pdftex.def Info: Grain_size_distribution.jpg used on input line 304.
 (pdftex.def)             Requested size: 418.25368pt x 313.70645pt.
 
 
@@ -763,135 +1752,243 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: Defomation_Bands.jpg Graphic file (type jpg)
 
 <use Defomation_Bands.jpg>
-Package pdftex.def Info: Defomation_Bands.jpg used on input line 316.
+Package pdftex.def Info: Defomation_Bands.jpg used on input line 314.
 (pdftex.def)             Requested size: 418.25368pt x 313.68515pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+
+LaTeX Warning: Reference `DBC' on page 27 undefined on input line 322.
+
+
+LaTeX Warning: Reference `DBC' on page 27 undefined on input line 322.
+
 [27] [28 <./Grain_size_distribution.jpg>] [29 <./Defomation_Bands.jpg>]
 <DBC_edge.jpg, id=110, 1070.42194pt x 802.81645pt>
 File: DBC_edge.jpg Graphic file (type jpg)
  <use DBC_edge.jpg>
-Package pdftex.def Info: DBC_edge.jpg used on input line 334.
+Package pdftex.def Info: DBC_edge.jpg used on input line 332.
 (pdftex.def)             Requested size: 167.2989pt x 125.46425pt.
 
 <DBC_X.jpg, id=111, 1070.42194pt x 802.81645pt>
 File: DBC_X.jpg Graphic file (type jpg)
  <use DBC_X.jpg>
-Package pdftex.def Info: DBC_X.jpg used on input line 338.
+Package pdftex.def Info: DBC_X.jpg used on input line 336.
 (pdftex.def)             Requested size: 167.2989pt x 125.46425pt.
  [30 <./DBC_edge.jpg> <./DBC_X.jpg>]
 <Fault_architecture_zoom.jpg, id=115, 1070.42194pt x 802.81645pt>
 File: Fault_architecture_zoom.jpg Graphic file (type jpg)
 
 <use Fault_architecture_zoom.jpg>
-Package pdftex.def Info: Fault_architecture_zoom.jpg used on input line 353.
+Package pdftex.def Info: Fault_architecture_zoom.jpg used on input line 351.
 (pdftex.def)             Requested size: 418.25368pt x 313.68515pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[31] [32] <microstructural_wear.jpg, id=123, 433.62pt x 325.215pt>
+
+LaTeX Warning: Citation `otsuki2003fluidization' on page 31 undefined on input 
+line 360.
+
+
+LaTeX Warning: Citation `aydin1977faulting' on page 31 undefined on input line 
+360.
+
+[31]
+
+LaTeX Warning: Reference `microstructural_wear' on page 32 undefined on input l
+ine 367.
+
+[32] <microstructural_wear.jpg, id=123, 433.62pt x 325.215pt>
 File: microstructural_wear.jpg Graphic file (type jpg)
 
 <use microstructural_wear.jpg>
-Package pdftex.def Info: microstructural_wear.jpg used on input line 377.
+Package pdftex.def Info: microstructural_wear.jpg used on input line 375.
 (pdftex.def)             Requested size: 418.25368pt x 313.70645pt.
  <PSS.jpg, id=124, 1070.42194pt x 802.81645pt>
 File: PSS.jpg Graphic file (type jpg)
 
 <use PSS.jpg>
-Package pdftex.def Info: PSS.jpg used on input line 384.
+Package pdftex.def Info: PSS.jpg used on input line 382.
 (pdftex.def)             Requested size: 418.25368pt x 313.68515pt.
  [33] <two_slip_surfaces.jpg, id=128, 1070.42194pt x 802.81645pt>
 File: two_slip_surfaces.jpg Graphic file (type jpg)
 
 <use two_slip_surfaces.jpg>
-Package pdftex.def Info: two_slip_surfaces.jpg used on input line 401.
+Package pdftex.def Info: two_slip_surfaces.jpg used on input line 399.
 (pdftex.def)             Requested size: 167.2989pt x 125.46425pt.
 
 <Concentric.jpg, id=129, 1070.42194pt x 802.81645pt>
 File: Concentric.jpg Graphic file (type jpg)
  <use Concentric.jpg>
-Package pdftex.def Info: Concentric.jpg used on input line 405.
+Package pdftex.def Info: Concentric.jpg used on input line 403.
 (pdftex.def)             Requested size: 167.2989pt x 125.46425pt.
 File: PSS.jpg Graphic file (type jpg)
 
 <use PSS.jpg>
-Package pdftex.def Info: PSS.jpg used on input line 413.
+Package pdftex.def Info: PSS.jpg used on input line 411.
 (pdftex.def)             Requested size: 418.25368pt x 313.68515pt.
 
-Overfull \hbox (1.4128pt too wide) in paragraph at lines 421--422
+Overfull \hbox (1.4128pt too wide) in paragraph at lines 419--420
 []\OT1/cmr/m/n/12 Certain slip sur-faces do ac-com-mo-date the over-whelm-ing m
 a-jor-ity of fault offset--
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 425.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 423.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 425.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 423.
  [34] [35]
 
 LaTeX Warning: Reference `fig:DavatzesFR' on page 36 undefined on input line 47
-7.
+5.
 
 [36]
-Overfull \hbox (0.5059pt too wide) in paragraph at lines 489--489
+Overfull \hbox (0.5059pt too wide) in paragraph at lines 487--487
 []\OT1/cmr/bx/n/14.4 Interpretation of field ob-ser-va-tions and rough-ness mea
 -
  []
 
-[37] [38] [39] [40] [41] <big_hole_cliff.jpg, id=156, 433.62pt x 325.215pt>
+[37]
+
+LaTeX Warning: Citation `sagy2007evolution' on page 38 undefined on input line 
+516.
+
+
+LaTeX Warning: Citation `brodsky2011faults' on page 38 undefined on input line 
+516.
+
+
+LaTeX Warning: Citation `candela2012roughness' on page 38 undefined on input li
+ne 516.
+
+[38] [39] [40]
+
+LaTeX Warning: Citation `krantz1986orthorhombic' on page 41 undefined on input 
+line 536.
+
+
+LaTeX Warning: Citation `krantz1989orthorhombic' on page 41 undefined on input 
+line 536.
+
+
+LaTeX Warning: Citation `maerten2001digital' on page 41 undefined on input line
+ 536.
+
+
+LaTeX Warning: Citation `shipton2001damage' on page 41 undefined on input line 
+536.
+
+
+LaTeX Warning: Citation `shipton2001damage' on page 41 undefined on input line 
+536.
+
+
+LaTeX Warning: Citation `aydin1977faulting' on page 41 undefined on input line 
+536.
+
+
+LaTeX Warning: Citation `aydin1977faulting' on page 41 undefined on input line 
+536.
+
+[41] <big_hole_cliff.jpg, id=156, 433.62pt x 325.215pt>
 File: big_hole_cliff.jpg Graphic file (type jpg)
 
 <use big_hole_cliff.jpg>
-Package pdftex.def Info: big_hole_cliff.jpg used on input line 545.
+Package pdftex.def Info: big_hole_cliff.jpg used on input line 543.
 (pdftex.def)             Requested size: 418.25368pt x 313.70645pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52]
-Overfull \hbox (7.02658pt too wide) in paragraph at lines 715--716
+
+LaTeX Warning: Citation `chester1986implications' on page 42 undefined on input
+ line 549.
+
+
+LaTeX Warning: Citation `shipton2001damage' on page 42 undefined on input line 
+549.
+
+[42] [43] [44]
+
+LaTeX Warning: Citation `lee1996structural' on page 45 undefined on input line 
+605.
+
+[45] [46] [47] [48] [49] [50] [51]
+<smoothing_all_scale_no_up.jpg, id=189, 1294.8375pt x 478.78876pt>
+File: smoothing_all_scale_no_up.jpg Graphic file (type jpg)
+
+<use smoothing_all_scale_no_up.jpg>
+Package pdftex.def Info: smoothing_all_scale_no_up.jpg used on input line 684.
+(pdftex.def)             Requested size: 650.68681pt x 240.60654pt.
+
+Overfull \hbox (59.15662pt too wide) in paragraph at lines 684--685
+ [][] 
+ []
+
+<smoothing_all_scale_just_up.jpg, id=190, 1375.1375pt x 478.78876pt>
+File: smoothing_all_scale_just_up.jpg Graphic file (type jpg)
+
+<use smoothing_all_scale_just_up.jpg>
+Package pdftex.def Info: smoothing_all_scale_just_up.jpg used on input line 693
+.
+(pdftex.def)             Requested size: 650.68681pt x 226.55032pt.
+
+Overfull \hbox (59.15662pt too wide) in paragraph at lines 693--694
+ [][] 
+ []
+
+[52]
+Overfull \hbox (7.02658pt too wide) in paragraph at lines 731--732
 []\OT1/cmr/m/n/12 power spec-trum shows that fault slip sur-faces are sys-tem-a
 t-i-cally smoother
  []
 
-[53] [54] [55] [56] [57] [58] [59] (Thesis_draft.bbl [60] [61] [62] [63]
-[64] [65] [66] [67] [68] [69] [70] [71] [72] [73]) [74] [75] [76]
-Overfull \hbox (2.10414pt too wide) in paragraph at lines 858--859
+[53]
+
+LaTeX Warning: Citation `chester2000stress' on page 54 undefined on input line 
+749.
+
+
+LaTeX Warning: Citation `crouch1982boundary' on page 54 undefined on input line
+ 749.
+
+[54] [55] [56] [57] [58] [59] (Thesis_draft.bbl [60] [61] [62] [63] [64]
+[65] [66] [67] [68] [69] [70] [71] [72] [73]) [74] [75] [76]
+Overfull \hbox (2.10414pt too wide) in paragraph at lines 874--875
 []\OT1/cmr/m/it/12 'PLOMB'\OT1/cmr/m/n/12 : pe-ri-odogram plot as de-ter-mined 
 by the Lomb-Scargle least squares
  []
 
 [77]
-Overfull \hbox (5.71063pt too wide) in paragraph at lines 880--881
+Overfull \hbox (5.71063pt too wide) in paragraph at lines 896--897
 []\OT1/cmr/m/it/12 fractal_model_outlier\OT1/cmr/m/n/12 : Re-moves out-ly-ing s
 eg-ments ac-cord-ing to a near-gaussian
  []
 
 [78] [79] [80 <./Fault_architecture_zoom.jpg>] [81 <./microstructural_wear.jpg>
 ] [82 <./PSS.jpg> <./two_slip_surfaces.jpg> <./Concentric.jpg>] [83] [84 <./big
-_hole_cliff.jpg>] (Thesis_draft.aux)
+_hole_cliff.jpg>] [85 <./smoothing_all_scale_no_up.jpg>] [86 <./smoothing_all_s
+cale_just_up.jpg>] (Thesis_draft.aux)
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 5485 strings out of 493634
- 80801 string characters out of 3141302
- 151879 words of memory out of 3000000
- 8740 multiletter control sequences out of 15000+200000
+ 5565 strings out of 493634
+ 82171 string characters out of 3141302
+ 153369 words of memory out of 3000000
+ 8814 multiletter control sequences out of 15000+200000
  16355 words of font info for 67 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 36i,15n,39p,2821b,437s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,15n,39p,2821b,441s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C
@@ -909,9 +2006,9 @@ X 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9
 /fonts/type1/public/esint/esint10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
 type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Thesis_draft.pdf (84 pages, 43039268 bytes).
+Output written on Thesis_draft.pdf (86 pages, 43219227 bytes).
 PDF statistics:
- 350 PDF objects out of 1000 (max. 8388607)
+ 359 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
