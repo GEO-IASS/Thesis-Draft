@@ -130,6 +130,20 @@ OPTannote = {•}
   publisher={Elsevier}
 }
 
+@PhdThesis{bright2006deformation,
+author = {Bright, Aileen},
+title = {Deformation band fault fault core : character, evolution and influence on bulk fluid flow},
+school = {Trinity College},
+year = {2006},
+OPTkey = {•},
+OPTtype = {•},
+OPTaddress = {•},
+OPTmonth = {•},
+OPTnote = {•},
+OPTannote = {•}
+}
+
+
 @article{brodsky2011faults,
   title={Faults smooth gradually as a function of slip},
   author={Brodsky, Emily E and Gilchrist, Jacquelyn J and Sagy, Amir and Collettini, Cristiano},
@@ -658,6 +672,17 @@ OPTannote = {•}
   pages={363--380},
   year={1988},
   publisher={Elsevier}
+}
+
+@article{lunn2008can,
+  title={How can we improve estimates of bulk fault zone hydraulic properties?},
+  author={Lunn, Rebecca J and Shipton, Zoe K and Bright, Aileen M},
+  journal={Geological Society, London, Special Publications},
+  volume={299},
+  number={1},
+  pages={231--237},
+  year={2008},
+  publisher={Geological Society of London}
 }
 
 @article{lyakhovsky2014fault,
@@ -1258,7 +1283,7 @@ OPTannote = {•}
 
 @article{yoshioka1986fracture,
   title={Fracture energy and the variation of gouge and surface roughness during frictional sliding of rocks},
-  author={YOSHIOKA, Naoto},
+  author={Yoshioka, Naoto},
   journal={Journal of Physics of the Earth},
   volume={34},
   number={4},
